@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Footer style */
 .footerRow{
 	background-color:#e3e3e3;
@@ -26,8 +25,8 @@
 }
 
 .socialLinks{
-	text-decoration:none;
-=======
+    text-decoration:none;
+}
 
 .page-header-section{
     background-image:url(https://uploads-ssl.webflow.com/5b42ca4220a14a3f61aeff1f/5b43af8300175d2401032411_web-base-imagery.png)
@@ -39,7 +38,6 @@
     margin-top: 16px;
     position: static;
     font-weight: 700; 
->>>>>>> c57ed1c641daa79fee29803322fa04a389eea789
 }
 
 .footerLinks:hover{
