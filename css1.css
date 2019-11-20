@@ -4,14 +4,6 @@
 
 
 /**************************************NAVIGATION BAR**************************************/
-body,
-html {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column
-}
 
 .navList { /*General Nav properties*/
   background-color: white; 
@@ -40,12 +32,6 @@ html {
 .navList a:hover { /*Hover colour*/
   background-color: #E0FFFF;
 }
-
-/*.navList a[href="#two"] { 
-  color: #white;
-  background-color: darkMagenta;
-}  */ 
-/*the above code changes the second link properties, not required but neat*/
 
 .navList > li { /*hide the list within the nav element*/
   position: relative;
