@@ -16,7 +16,7 @@ html {
 .navList { /*General Nav properties*/
   background-color: white; 
   border-bottom: 1px solid black; /*thin line at the bottom of nav bar*/
-  box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.2); /*grey shadow*/
+  box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.2); /*grey shadow*/
   list-style-type: none;
   margin: 0;
   padding: 0;
