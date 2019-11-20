@@ -82,9 +82,7 @@ Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_nav
     width:33.33%;
 	padding:10px;
 	box-sizing:border-box;
-	border-right: 1px solid #737373;
-	border-left: 1px solid #737373;
-	height:150px;
+	height:100%;
 }
 .footerLinks{
 	text-align:center;
@@ -94,7 +92,7 @@ Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_nav
 }
 
 .socialLinks{
-    text-decoration:none;
+	text-decoration:none;
 }
 
 .page-header-section{
@@ -112,3 +110,16 @@ Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_nav
 .footerLinks:hover{
 	color:red;
 }
+<<<<<<< HEAD
+=======
+
+#title{
+	text-align: center
+}
+#subtitle{
+	text-align: center
+}
+=======
+>>>>>>> 42b8a6cad375b7c3a977a8919a5a79f3954e3304
+>>>>>>> e9d7e248fb2ca9c4c5a86f73e35b4802040b69ad
+>>>>>>> 5363be1e45112e12cb839fc1ee9c78f070fa5a44
