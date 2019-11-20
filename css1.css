@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .body {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -68,7 +67,6 @@ Retrieved from w3schools: https://www.w3schools.com/cssref/css_colors.asp */
 
 /*Code for navigation bar referenced from w3schools. (n.d). How TO - Dropdown Navbar. 
 Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
-=======
 /* Footer style */
 .footerRow{
 	background-color:#e3e3e3;
@@ -114,4 +112,3 @@ Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_nav
 .footerLinks:hover{
 	color:red;
 }
->>>>>>> 42b8a6cad375b7c3a977a8919a5a79f3954e3304
