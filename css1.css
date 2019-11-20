@@ -13,9 +13,7 @@
     width:33.33%;
 	padding:10px;
 	box-sizing:border-box;
-	border-right: 1px solid #737373;
-	border-left: 1px solid #737373;
-	height:150px;
+	height:100%;
 }
 .footerLinks{
 	text-align:center;
@@ -25,7 +23,7 @@
 }
 
 .socialLinks{
-    text-decoration:none;
+	text-decoration:none;
 }
 
 .page-header-section{
@@ -42,4 +40,11 @@
 
 .footerLinks:hover{
 	color:red;
+}
+
+#title{
+	text-align: center
+}
+#subtitle{
+	text-align: center
 }
