@@ -68,6 +68,12 @@ Retrieved from w3schools: https://www.w3schools.com/cssref/css_colors.asp */
 /*Code for navigation bar referenced from w3schools. (n.d). How TO - Dropdown Navbar. 
 Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 /* Footer style */
+
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
 .footerRow{
 	background-color:#e3e3e3;
 }
@@ -79,10 +85,17 @@ Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_nav
 .footerCol{
 	text-align:center;
 	float:left;
-    width:33.33%;
+    width:25%;
 	padding:10px;
 	box-sizing:border-box;
 	height:100%;
+}
+.footerHeader{
+	margin-top:5px;
+	margin-bottom:10px;
+}
+#footerBlurb{
+	margin-top:0px;
 }
 .footerLinks{
 	text-align:center;
@@ -90,13 +103,17 @@ Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_nav
 	color:blue;
 	box-sizing:border-box;
 }
+.footerLinks:hover{
+	color:red;
+}
 
 .socialLinks{
 	text-decoration:none;
 }
 
 .page-header-section{
-    background-image:url(https://uploads-ssl.webflow.com/5b42ca4220a14a3f61aeff1f/5b43af8300175d2401032411_web-base-imagery.png)
+    background-image:url(https://uploads-ssl.webflow.com/5b42ca4220a14a3f61aeff1f/5b43af8300175d2401032411_web-base-imagery.png);
+	width:100%;
 }
 .page-header{
     text-transform: uppercase;
@@ -104,22 +121,17 @@ Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_nav
     text-align: center;
     margin-top: 16px;
     position: static;
-    font-weight: 700; 
+    font-weight: 700;
+	width:100%;
 }
 
-.footerLinks:hover{
-	color:red;
-}
-<<<<<<< HEAD
-=======
-
-#title{
-	text-align: center
-}
 #subtitle{
 	text-align: center
 }
-=======
->>>>>>> 42b8a6cad375b7c3a977a8919a5a79f3954e3304
->>>>>>> e9d7e248fb2ca9c4c5a86f73e35b4802040b69ad
->>>>>>> 5363be1e45112e12cb839fc1ee9c78f070fa5a44
+
+#mainBlurb{
+	width:50%;
+	font-size:20px;
+	float:left;
+	font-family:Helvetica;
+}
