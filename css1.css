@@ -219,14 +219,6 @@ footer{
 	text-decoration:none;
 }
 
-<<<<<<< HEAD
-.page-header-section{
-    background-image:url(https://uploads-ssl.webflow.com/5b42ca4220a14a3f61aeff1f/5b43af8300175d2401032411_web-base-imagery.png);
-	width:100%;
-}
-=======
-
->>>>>>> a976861d11005042523fbe8cdf7158ddc42083f8
 .page-header{
     text-transform: uppercase;
     font-size: 2em;
@@ -237,27 +229,13 @@ footer{
 	width:100%;
 }
 
-<<<<<<< HEAD
-=======
-.footerLinks:hover{
-	color:red;
-}
-
-#title{
-	text-align: center
-}
->>>>>>> a976861d11005042523fbe8cdf7158ddc42083f8
 #subtitle{
 	text-align: center
 }
 
-<<<<<<< HEAD
 #mainBlurb{
 	width:50%;
 	font-size:20px;
 	float:left;
 	font-family:Helvetica;
 }
-=======
-
->>>>>>> a976861d11005042523fbe8cdf7158ddc42083f8
