@@ -225,7 +225,67 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 /*Image gallery taken and edited based of w3schools How To 
   https://www.w3schools.com/howto/howto_js_image_grid.asp*/
 
-/* Footer style */
+
+/*General CSS for headings, etc*/
+
+h1{
+  font-family: Helvetica;
+  color: black;
+}
+
+h2{
+  font-family: Helvetica;
+  color: black
+}
+
+h3{
+  font-family: Helvetica;
+  color: black
+}
+
+p{
+  font-family: Helvetica;
+  color: black
+}
+
+/************************************************** Food Page CSS *******************************************************/
+/* Written by Mara*/
+
+h1.food {
+text-align: center;
+padding-left: 60px;
+padding-bottom: 50px
+}
+
+img.stars {
+display: block;
+padding-left: 60px;
+}
+
+img.tims{
+float: right;
+width: 30%;
+padding-right: 60px;
+padding-bottom: 100px
+}
+
+h2.food {
+margin: 5px;
+padding-left: 60px
+}
+
+p.food{
+float:left;
+padding-left: 70px;
+margin: 0px;
+width: 40%;
+padding-bottom: 100px
+}
+/*end of food page css*/
+
+
+
+  /* Footer style */
 /* Written by Chris*/
 
 footer{ /*Chris Noakes*/
