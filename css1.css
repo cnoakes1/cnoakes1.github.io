@@ -6,6 +6,18 @@
   }
 
 
+/*Chris - Set background colour*/
+body{
+  background-color: rgb(224, 253, 242)
+}
+/*Chris - Set inner content box for entire page*/
+
+.innerContent{
+  background-color: rgb(255, 255, 255);
+  margin-left: 7%;
+  margin-right: 7%;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(105, 105, 105, 0.8), -12px 0 15px -4px rgba(105, 105, 105, 0.8);
+}
 /**************************************NAVIGATION BAR**************************************/
 body,
 html {
@@ -219,20 +231,19 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 /* Footer style */
 /* Written by Chris*/
 
-footer{
-	position:absolute;
-	bottom:0;
+footer{ /*Chris Noakes*/
+	flex-shrink:0;
 	width:100%;
 }
-.footerRow{
+.footerRow{ /*Chris Noakes*/
 	background-color:#e3e3e3;
 }
-.footerRow:after{
+.footerRow:after{ /*Chris Noakes*/
 	content:" ";
 	display:table;
 	clear:both;
 }
-.footerCol{
+.footerCol{ /*Chris Noakes*/
 	text-align:center;
 	float:left;
     width:25%;
@@ -240,26 +251,28 @@ footer{
 	box-sizing:border-box;
 	height:100%;
 }
-.footerHeader{
+.footerHeader{ /*Chris Noakes*/
 	margin-top:5px;
 	margin-bottom:10px;
 }
-#footerBlurb{
+#footerBlurb{ /*Chris Noakes*/
 	margin-top:0px;
 }
-.footerLinks{
+.footerLinks{ /*Chris Noakes*/
 	text-align:center;
 	display:block;
 	color:blue;
 	box-sizing:border-box;
 }
-.footerLinks:hover{
+.footerLinks:hover{ /*Chris Noakes*/
 	color:red;
 }
 
-.socialLinks{
+.socialLinks{ /*Chris Noakes*/
 	text-decoration:none;
 }
+
+/*End footer style*/
 
 .page-header{
     text-transform: uppercase;
