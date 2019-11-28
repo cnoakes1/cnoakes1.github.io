@@ -1,68 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="css1.css"> 
+	<title>Main Page</title>
+
 <meta charset="UTF-8"> <!-- Used to remove error of undefined charset Declaring Character Encodings in HTML, https://www.w3.org/International/questions/qa-html-encoding-declarations#httphead. -->
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp -->
-<title>ImageGallery</title>
+<!-- This is a comment from Grayson, Shawn's Git Review-->
+<!-- this is a comment--> 
+    <title>Lindsay Attractions</title>
+    <meta charset="UTF-8"> <!-- Used to remove error of undefined charset declaring character encodings 
+                            https://www.w3.org/International/questions/qa-html-encoding-declarations#httphead.-->
+    <link rel="stylesheet" href="css1.css"> <!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 </head>
-<body>
-    <!--****************************NAVIGATION BAR ***********************************************-->
-<div class="navbar">
-        <a href="#home">Home</a> <!--Home page-->
-        <div class="dropdown">
-        <button class="dropbtn" >Attractions <!--Button created for Attractions-->
-        </button>
-        <div class="dropdown-content"> <!--Dropdown options for Attractions-->
-          <a href="#">Food</a>
-          <a href="#">Parks/Conservation Areas</a>
-          <a href="#">Events</a>
-        </div>
-        </div> 
-        <div class="dropdown">
-        <button class="dropbtn" >Testimonials <!--Button created for Testimonials-->
-        </button>
-        <div class="dropdown-content"> <!--Dropdown options for testimonials-->
-          <a href="#">Our Team</a>
-          <a href="#">Lindsay Locals</a>
-        </div>
-        </div> 
-        <a href="#news">Image Gallery</a> <!--Image gallery link-->
-        <a href="#news">Map</a> <!--Lindsay Map link-->
-      </div>
-       <!-- HTML code for navigation bar referenced from w3schools. (n.d). How TO - Dropdown Navbar. 
-         Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp --> 
-      
-<h1>Image Gallery</h1>
-<!--**************Image Gallery************-->
-<div class="header">
 
-    <h1>Gallery</h1>
-  </div>
+<body>
+
+ <!--****************************NAVIGATION BAR ***********************************************--><!--Created by Mara Van Meer -->
+ <ul class="navList">
+    <li>
+      <a href="#one">Home</a>
   
-  <div class="row"> 
-    <div class="column">
-    <img src="imagefolder/Lindsay_ON.png" alt="Lindsay">
-    <img src="imagefolder/Lindsay-sign-low-res.png" alt="Lindsay">
-    <img src="imagefolder/Timhorton.jpg" alt="Lindsay">
-    <img src="imagefolder/Lindsay_ON.png" alt="Lindsay">
-    </div>
-    <div class="column">
-    <img src="imagefolder/Lindsay-sign-low-res.png" alt="Lindsay">
-    <img src="imagefolder/Lindsay_ON.png" alt="Lindsay">
-    </div>  
-    <div class="column">
-    <img src="imagefolder/Lindsay_ON.png" alt="Lindsay">
-    </div>
-    <div class="column">
-    <img src="imagefolder/Lindsay-sign-low-res.png" alt="Lindsay">
-    </div>
-  </div>
+    </li>
+    <li><a href="#two">Attractions</a>
+      <div>
+        <a href="#">Food</a>
+        <a href="#">Parks</a>
+        <a href="#">Events</a>
+      </div>
+    </li>
+    <li>
+      <a href="#three">Testimonials</a>
+      <div>
+        <a href="#">Our Team</a>
+        <a href="#">Lindsay Locals</a>
+      </div>
+    </li>
+    <li><a href="ImageGallery.html">Image Gallery</a></li>
+    <li><a href="#four">Map</a></li>
+  </ul>
   
-  </body>
-  </html> 
-  <!--Image gallery taken and edited based of w3schools How To 
-    https://www.w3schools.com/howto/howto_js_image_grid.asp-->
+  <!--Code for navigation bar referenced from CodePen. (n.d). navBar with Dropdown. 
+    Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj--> 
+
+
+<!--**************Image Gallery************-->
+ <div class="header">
+
+  <h1>Gallery</h1>
+</div>
+
+<div class="row"> 
+  <div class="column">
+  <img src="vicoceanedit.jpg" alt="Victoria BC">
+  <img src="victoriaedit.jpg" alt="Victoria BC">
+  <img src="vicoceanedit.jpg" alt="Victoria BC">
+  <img src="victoriaedit.jpg" alt="Victoria BC">
+  </div>
+  <div class="column">
+  <img src="victoriaedit.jpg" alt="Victoria BC">
+  <img src="vicoceanedit.jpg" alt="Victoria BC">
+  </div>  
+  <div class="column">
+  <img src="vicoceanedit.jpg" alt="Victoria BC">
+  </div>
+  <div class="column">
+  <img src="vicoceanedit.jpg" alt="Victoria BC">
+  </div>
+</div>
+
 </body>
-</html>
+</html> 
+<!--Image gallery taken and edited based of w3schools How To 
+  https://www.w3schools.com/howto/howto_js_image_grid.asp-->
