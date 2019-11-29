@@ -281,11 +281,11 @@ h1.food {
   padding-bottom: 100px;
   }
   
-  /* #food2{
-    padding-bottom: 200px;
+  #food2{
+    padding-bottom: 250px;
     padding-left: 100px
   }
-   */
+  
 
   #maptitle{
     text-align: center;
