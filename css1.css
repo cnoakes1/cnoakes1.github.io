@@ -257,57 +257,77 @@ p{
 h1.food {
   text-align: center;
   padding-left: 100px;
-  padding-bottom: 50px
+  padding-bottom: 50px;
+  padding-top: 50px
   }
   
-  img.stars {
-  display: block;
-  clear: left;
-  padding-left: 100px;
-  }
+img.stars {
+display: block;
+clear: left;
+padding-left: 100px;
+}
   
-  h2.food {
-    clear:left;
-    margin: 5px;
-    padding-left: 100px
-    }
-  
-  img.tims{
-  display: block;
-  clear: right;
-  float: right;
-  width: 40%;
-  padding-right: 100px;
-  padding-bottom: 100px;
-  }
-  
-  #food2{
-    padding-bottom: 210px;
-    padding-left: 100px
-  }
-  
+h2.food {
+  clear:left;
+  margin: 5px;
+  padding-left: 100px
+}
 
-  #maptitle{
-    text-align: center;
-    clear: left;
-    padding-top: 100px 
+#tims1{
+display: block;
+clear: right;
+float: right;
+width: 40%;
+padding-right: 100px;
+padding-bottom: 100px;
+padding-top: 10px;
+}
+
+img.tims{
+display: block;
+clear: right;
+float: right;
+width: 40%;
+padding-right: 100px;
+padding-bottom: 100px;
+}
+
+#food2{
+  /* padding-bottom: 210px; */
+  padding-left: 100px
+}
+
+
+#maptitle{
+  text-align: center;
+  clear: left;
+  padding-top: 100px 
+}
+
+p.food{
+float:left;
+padding-left: 100px;
+margin: 0px;
+width: 40%;
+/* padding-bottom: 250px */
+}
+
+img.staticmap{
+  width: 100%;
+  float: center; 
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-bottom: 100px
   }
-  
-  p.food{
-  float:left;
-  padding-left: 100px;
-  margin: 0px;
-  width: 40%;
-  padding-bottom: 250px
-  }
-  
-  img.staticmap{
-    width: 100%;
-    float: center; 
-    padding-right: 300px;
-    padding-left: 300px;
-    padding-bottom: 100px
-    }
+
+div.boxed{
+  border: 1px solid black ;
+  box-shadow:12px 0 15px -4px rgba(105, 105, 105, 0.8), -12px 0 15px -4px rgba(105, 105, 105, 0.8);
+  padding-bottom: 350px;
+  padding-top: 50px
+}
+
+
   /*end of food page css*/
 
 /************************************************** Parks Page CSS *******************************************************/
