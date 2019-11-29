@@ -286,14 +286,11 @@ h1.food {
     padding-left: 100px
   }
   
-  #food3{
-    padding-bottom: 100px;
-    padding-left: 250px
-  }
-  
+
   #maptitle{
     text-align: center;
-    clear: left
+    clear: left;
+    padding-top: 200px 
   }
   
   p.food{
