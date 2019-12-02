@@ -230,6 +230,7 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 
 
 /*General CSS for headings, etc*/
+/*written by Mara*/
 
 h1{
   font-family: Helvetica;
@@ -258,7 +259,7 @@ h1.food {
   text-align: center;
   padding-left: 100px;
   padding-bottom: 50px;
-  padding-top: 50px
+  padding-top: 25px;
   }
   
 img.stars {
@@ -270,7 +271,10 @@ padding-left: 100px;
 h2.food {
   clear:left;
   margin: 5px;
-  padding-left: 100px
+  padding-left: 100px;
+  background-color: lightsteelblue;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 #tims1{
@@ -290,25 +294,27 @@ float: right;
 width: 40%;
 padding-right: 100px;
 padding-bottom: 100px;
+padding-top: 50px
 }
 
 #food2{
   /* padding-bottom: 210px; */
-  padding-left: 100px
+  padding-left: 100px;
+  width: 50%;
 }
 
 
 #maptitle{
   text-align: center;
   clear: left;
-  padding-top: 100px 
+  padding-top: 75px 
 }
 
 p.food{
 float:left;
 padding-left: 100px;
 margin: 0px;
-width: 40%;
+width: 50%;
 /* padding-bottom: 250px */
 }
 
@@ -322,13 +328,73 @@ img.staticmap{
 
 div.boxed{
   border: 1px solid black ;
-  box-shadow:12px 0 15px -4px rgba(105, 105, 105, 0.8), -12px 0 15px -4px rgba(105, 105, 105, 0.8);
-  padding-bottom: 350px;
+  padding-bottom: 400px;
   padding-top: 50px
 }
 
+/*HTML code for food page referenced from Duckett, J. (2011). HTML & CSS Design and Build Websites. Indianapolis: John Wiley & Sons, Inc.*/
+/*end of food page css*/
 
-  /*end of food page css*/
+
+/*********************************Events page CSS*****************************************************************/
+/*Written by Mara*/
+div.event{ /*Container for each event*/
+  width: 100%;
+  align-content: center;
+  border: 2px solid black;
+  margin-bottom: 0px;
+}
+
+#events{ /*Main title for the event page*/
+  text-align: center;
+}
+
+h2.date{ /*Second heading */
+  text-align: left;
+  clear: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 1px solid black;
+  background-color: lightsteelblue;
+  }
+
+h3.activity{ /*Third heading*/
+  background-color: lightgrey;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p.description{ /*description css*/
+  text-align: left;
+  }
+
+img.eventpic{ /*css for pictures on event page*/
+  width: 100%;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+#mybutton{ /*Change the colour of the button, make it round*/
+  background-color: lightblue;
+  border-radius: 12px
+}
+
+#secondbutton{
+  background-color: lightblue;
+  border-radius: 12px
+}
+
+#lastbutton{
+  background-color: lightblue;
+  border-radius: 12px
+}
+/*Code for button css referenced from Dossena, F. (2019). COOL AND RESPONSIVE BUTTONS WITH A FEW LINES OF CSS. Retrieved from fdoessena: https://fdossena.com/?p=html5cool/buttons/i.frag*/
+
 
 /************************************************** Parks Page CSS *******************************************************/
 /* Written by Grayson*/

@@ -1,12 +1,184 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css1.css"> 
 <meta charset="UTF-8"> <!-- Used to remove error of undefined charset Declaring Character Encodings in HTML, https://www.w3.org/International/questions/qa-html-encoding-declarations#httphead. -->
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp -->
-<title>Events</title>
+<title>Events in Lindsay</title>
 </head>
 <body>
-<h1>Events</h1>
+    <!--****************************NAVIGATION BAR ***********************************************--><!--Created by Mara Van Meer-->
+ <ul class="navList">
+        <li>
+          <a href="#one">Home</a>
+      
+        </li>
+        <li><a href="#two">Attractions</a>
+          <div>
+            <a href="#">Food</a>
+            <a href="#">Parks</a>
+            <a href="#">Events</a>
+          </div>
+        </li>
+        <li>
+          <a href="#three">Testimonials</a>
+          <div>
+            <a href="#">Our Team</a>
+            <a href="#">Lindsay Locals</a>
+          </div>
+        </li>
+        <li><a href="#four">Image Gallery</a></li>
+        <li><a href="#four">Map</a></li>
+      </ul>
+      
+      <!--Code for navigation bar referenced from CodePen. (n.d). navBar with Dropdown. 
+        Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj-->
+    
+<!--Content-->
+<div class= "innerContent">
+  
+  <h1 id= "events">Upcoming Community Events</h1>
+
+
+  <div class="event">
+    <h2 class= "date">SATURDAY, DECEMBER 7TH, 2019</h2>
+    <h3 class= "activity">BREAKFAST WITH SANTA</h3>
+    <img class= "eventpic" src="imageFolder/breakfastwSanta.png" alt= "Breakfast w Santa"/> <!--Image referenced from Portugal Gove St.Philip's. (2019). Breakfast with Santa. Retrieved from Portugal Gove St.Philip's: https://pcsp.ca/breakfast-with-santa/-->
+    <p class= "description">Are you ho-ho-hungry? Have you always wanted to chow down with the big man himself? Well, grab your kids and come to breakfast with Santa on Saturday, December 7th! The REAL Santa will be there, along with Mrs.Claus and Rudolph, of course (none of the other reindeer though). </p>
+    <button type= "button" id= "mybutton">Click for Details</button> <!--Naming the button-->
+      <p id="location"></p> <!--insert text from script-->
+      <p id="address"></p><!--insert text from script-->
+      <p id="time"></p><!--insert text from script-->
+      
+  </div>
+  
+  <div class="event">
+      <h2 class= "date">SUNDAY, DECEMBER 16TH, 2019</h2>
+      <h3 class= "activity">ANNUAL CHRISTMAS TREE LIGHTING</h3>
+      <img class= "eventpic" src="imageFolder/tree.jpg" alt= "Lighting tree"/> <!--Image refenced from Roosevelt Island Operating Corporation. (n.d). Tree Lighting Ceremony. Retrieved from New York State: https://rioc.ny.gov/376/Tree-Lighting-Ceremony-->
+      <p class= "description">It’s back again! The annual lighting ceremony for Lindsay’s Christmas tree will be held on Sunday, December 16th, 2019. Don’t forget to bring hot cocoa! Santa will be attending the event and will be available for photos ($10 each). </p>
+      <button type= "button" id= "secondbutton">Click for Details</button>
+        <p id="location2"></p>
+        <p id="address2"></p>
+        <p id="time2"></p>
+        
+  </div>
+
+  <div class="event">
+    <h2 class= "date">MONDAY, DECEMBER 23RD </h2>
+    <h3 class= "activity">MAKE YOUR OWN CHRISTMAS DECORATIONS</h3>
+    <img class= "eventpic" src="ImageFolder/decoration.jpg" alt= "Ornament"/> <!--Image referenced from OneHowto. (2017). DIY Best Homemade Christmas Decorations. Retrieved from YouTube: https://www.youtube.com/watch?v=QbKiXqPRTSQ-->
+    <p class= "description">Don’t know what to get for mom for Christmas? Make her a gift from the heart! Stop by to create your very own Christmas ornament, keychain, or anything in between, just in time for the holidays! </p>
+    <button type= "button" id= "lastbutton">Click for Details</button>
+      <p id="location3"></p>
+      <p id="address3"></p>
+      <p id="time3"></p>
+      
+</div>
+</div>
+
+<!-- Footer written by Chris Noakes-->
+<footer>
+  <!--Inspiration for footer drawn from w3schools, explorekawarthalakes.com, mdbootstrap.com-->
+  <div class="footerRow">
+<div class="footerCol">
+<!--Logo from kawarthalakes.ca -->
+  <a href = "https://www.kawarthalakes.ca/en/index.aspx" target="_blank">
+    <img src="imageFolder/logo_footer.png" alt="Kawartha Logo">
+  </a>
+</div>
+      <div class="footerCol">
+  <h3 class="footerHeader">Small Header</h3> <!-- Subheader and contact information-->
+          <p id="footerBlurb">Here is a description of Lindsay taking up a third of the footer. lskdfglskdjfn gslkdjf gnslkjdfng lskjdf nlskjdf nglskjdf nglskjdfn glskjdf nskldjf nglskdjf
+  j sjd fghbksjdfh gbsjd fgbksjdfh gbksjd fgbsjd gbksjd gbksjdsljd fgbkjd fhgbksjdfh</p>
+      </div>
+<!--List of links; idea from w3schools and explore kawartha lakes website-->
+      <div class="footerCol">
+  <h3  class="footerHeader">Some Links</h3>
+          <a href="#" class="footerLinks">Link 1</a>
+          <a href="#" class="footerLinks">Link 2</a>
+          <a href="#" class="footerLinks">Link 3</a>
+          <a href="#" class="footerLinks">Link 4</a>
+  <a href="#" class="footerLinks">Link 5</a>
+      </div>
+<!--Social media image links-->
+      <div class="footerCol">
+          <h3>Check out our social media</h3>
+  <a href="#" class="socialLinks">
+    <img src="imageFolder/ResizeFB.png" alt="FB Link">
+  </a>
+  <a href="#" class="socialLinks">
+    <img src="imageFolder/instagramIMG.png" alt="FB Link">
+  </a>
+  <a href="#" class="socialLinks">
+    <img src="imageFolder/twitter.jpg" alt="FB Link">
+  </a>
+      </div>
+
+  </div>
+</footer>
+
+  <script>
+    /************************JavaScript for first event button*****************************************/
+    
+  function FirstEventLoc() { /*Call location function*/
+    document.getElementById("location").innerHTML = "LOCATION: The Royal Canadian Legion" /*Location text*/
+    }
+
+  function FirstEventAdd() { /*Call address function*/
+    document.getElementById("address").innerHTML = "ADDRESS: 12 York St N, Lindsay"  /*Address text*/
+    }
+  
+  function FirstEventTime() { /*Call time function*/
+    document.getElementById("time").innerHTML = "RUN TIME: 10AM- 1PM"  /*Time text*/
+    }
+
+  var btn= document.getElementById("mybutton")  /*Calling button by ID*/
+
+  btn.addEventListener("click", FirstEventLoc)  /*Attaches function to button*/
+  btn.addEventListener("click", FirstEventAdd) /*Attaches function to button*/
+  btn.addEventListener("click", FirstEventTime) /*Attaches function to button*/
+
+    /************************JavaScript for second event button*****************************************/
+  function LocationSecondEvent() { /*Call location function*/
+    document.getElementById("location2").innerHTML = "LOCATION: Kawartha Lakes Public Library" /*Location text*/
+    }
+
+  function AddressSecondEvent() { /*Call address function*/
+    document.getElementById("address2").innerHTML = "ADDRESS: 190 Kent St W, Lindsay"  /*Address text*/
+    }
+  
+  function TimeSecondEvent() { /*Call time function*/
+    document.getElementById("time2").innerHTML = "RUN TIME: 4PM- 7PM"  /*Time text*/
+    }
+
+  var btn2= document.getElementById("secondbutton")  /*Calling button by ID*/
+
+  btn2.addEventListener("click", LocationSecondEvent)  /*Attaches function to button*/
+  btn2.addEventListener("click", AddressSecondEvent) /*Attaches function to button*/
+  btn2.addEventListener("click", TimeSecondEvent) /*Attaches function to button*/
+
+  /************************JavaScript for third event button*****************************************/
+  function EventThreeLocation() { /*Call location function*/
+    document.getElementById("location3").innerHTML = "LOCATION: Lindsay Recreation Complex" /*Location text*/
+    }
+
+  function EventThreeAdd() { /*Call address function*/
+    document.getElementById("address3").innerHTML = "ADDRESS:  133 Adelaide St S, Lindsay"  /*Address text*/
+    }
+  
+  function EventThreeTime() { /*Call time function*/
+    document.getElementById("time3").innerHTML = "RUN TIME: 10AM- 5PM"  /*Time text*/
+    }
+
+  var btn3= document.getElementById("lastbutton")  /*Calling button by ID*/
+
+  btn3.addEventListener("click", EventThreeLocation)  /*Attaches function to button*/
+  btn3.addEventListener("click", EventThreeAdd) /*Attaches function to button*/
+  btn3.addEventListener("click", EventThreeTime) /*Attaches function to button*/
+/*Code to call multiple javascript functions referenced from TutorialRepublic. (2019). How to Call Multiple JavaScript Functions in onClick Event. Retrieved from TutorialRepublic: https://www.tutorialrepublic.com/faq/how-to-call-multiple-javascript-functions-in-a-single-onclick-event.php*/         
+</script>
 </body>
 </html>
