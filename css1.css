@@ -505,6 +505,7 @@ img.eventpic{ /*css for pictures on event page*/
     padding:10px;
   }
   .pintrestimage {
+    width:100%;
     max-width:100%;
     height:auto;
 }
