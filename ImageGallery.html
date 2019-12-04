@@ -1,68 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="css1.css"> 
+	<title>Image Gallery</title>
+
 <meta charset="UTF-8"> <!-- Used to remove error of undefined charset Declaring Character Encodings in HTML, https://www.w3.org/International/questions/qa-html-encoding-declarations#httphead. -->
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp -->
-<title>ImageGallery</title>
+<!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp --> 
+    <title>Lindsay Attractions</title>
+    <meta charset="UTF-8"> <!-- Used to remove error of undefined charset declaring character encodings 
+                            https://www.w3.org/International/questions/qa-html-encoding-declarations#httphead.-->
+    <link rel="stylesheet" href="css1.css"> <!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 </head>
-<body>
-    <!--****************************NAVIGATION BAR ***********************************************-->
-<div class="navbar">
-        <a href="#home">Home</a> <!--Home page-->
-        <div class="dropdown">
-        <button class="dropbtn" >Attractions <!--Button created for Attractions-->
-        </button>
-        <div class="dropdown-content"> <!--Dropdown options for Attractions-->
-          <a href="#">Food</a>
-          <a href="#">Parks/Conservation Areas</a>
-          <a href="#">Events</a>
-        </div>
-        </div> 
-        <div class="dropdown">
-        <button class="dropbtn" >Testimonials <!--Button created for Testimonials-->
-        </button>
-        <div class="dropdown-content"> <!--Dropdown options for testimonials-->
-          <a href="#">Our Team</a>
-          <a href="#">Lindsay Locals</a>
-        </div>
-        </div> 
-        <a href="#news">Image Gallery</a> <!--Image gallery link-->
-        <a href="#news">Map</a> <!--Lindsay Map link-->
-      </div>
-       <!-- HTML code for navigation bar referenced from w3schools. (n.d). How TO - Dropdown Navbar. 
-         Retrieved from w3schools: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp --> 
-      
-<h1>Image Gallery</h1>
-<!--**************Image Gallery************-->
-<div class="header">
 
-    <h1>Gallery</h1>
-  </div>
+<body>
+<!--Hero image header-->
+<!--Written by Malena-->
+    <div class ="imagegallery-hero-image">
+        <div class = "hero-text">
+            <h1 class= "heroimage">Impactful Images</h1>
+        </div>
+    </div>
+<!--*Hero image code inspired by: https://codepen.io/mrnathan8/pen/KwKdmO and 
+    https://css-tricks.com/forums/topic/full-width-header-responsive-image-with-left-right-overflow-->
+
+ <!--****************************NAVIGATION BAR ***********************************************--><!--Created by Mara Van Meer -->
+ <ul class="navList">
+    <li>
+      <a href="#one">Home</a>
   
-  <div class="row"> 
-    <div class="column">
-    <img src="imagefolder/Lindsay_ON.png" alt="Lindsay">
-    <img src="imagefolder/Lindsay-sign-low-res.png" alt="Lindsay">
-    <img src="imagefolder/Timhorton.jpg" alt="Lindsay">
-    <img src="imagefolder/Lindsay_ON.png" alt="Lindsay">
-    </div>
-    <div class="column">
-    <img src="imagefolder/Lindsay-sign-low-res.png" alt="Lindsay">
-    <img src="imagefolder/Lindsay_ON.png" alt="Lindsay">
-    </div>  
-    <div class="column">
-    <img src="imagefolder/Lindsay_ON.png" alt="Lindsay">
-    </div>
-    <div class="column">
-    <img src="imagefolder/Lindsay-sign-low-res.png" alt="Lindsay">
-    </div>
-  </div>
+    </li>
+    <li><a href="#two">Attractions</a>
+      <div>
+        <a href="#">Food</a>
+        <a href="#">Parks</a>
+        <a href="#">Events</a>
+      </div>
+    </li>
+    <li>
+      <a href="#three">Testimonials</a>
+      <div>
+        <a href="#">Our Team</a>
+        <a href="#">Lindsay Locals</a>
+      </div>
+    </li>
+    <li><a href="ImageGallery.html">Image Gallery</a></li>
+    <li><a href="#four">Map</a></li>
+  </ul>
   
-  </body>
-  </html> 
-  <!--Image gallery taken and edited based of w3schools How To 
-    https://www.w3schools.com/howto/howto_js_image_grid.asp-->
+  <!--Code for navigation bar referenced from CodePen. (n.d). navBar with Dropdown. 
+    Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj--> 
+
+<div class= "innerContent">
+<!--**************Image Gallery************-->
+<div class="row"> 
+  <div class="column">
+  <img src="imageFolder/gallery1.jpg" alt="Lindsay"> <!--Google Images: https://lindsayadvocate.ca/lindsay-woman-finds-mental-health-improving-basic-income/-->
+  <img src="imageFolder/gallery2.jpg" alt="Kent Street"><!--Google Images: https://www.russellalexander.com/lindsay/-->
+  <img src="imageFolder/gallery5.jpg" alt="Locks"><!--Google Image: https://www.flickr.com/photos/cliffhope/27837430295s-->
+  <img src="imageFolder/gallery3.jpg" alt="Kent st Winter"><!--Google Images: https://lindsayadvocate.ca/majority-basic-income-applicants-continue-low-income-workers/-->
+  </div>
+  <div class="column">
+  <img src="imageFolder/gallery6.jpg" alt="Lindsay Square Mall"><!--Google Images:https://www.lindsaysquare.ca/stores-->
+  <img src="imageFolder/gallery7.jpg" alt="Damn and Lock"><!--Google Images:https://scugoglakestewards.com/other-projects/the-operation-of-the-dam-at-lindsay/-->
+  <img src="imageFolder/gallery9.jpg" alt="Lindsay Ex"><!--Google Images: https://kawarthanow.com/2015/09/22/161st-lindsay-exhibition/-->
+  <img src="imageFolder/gallery11.jpg" alt="Lindsay"><!--Google Images:https://en.wikipedia.org/wiki/Lindsay,_Ontario-->
+  
+  </div>  
+  <div class="column">
+  <img src="imageFolder/gallery4.jpg" alt="Lindsay Prison"><!--Google Images:https://www.thepeterboroughexaminer.com/news-story/8203657-video-of-lindsay-guard-attacking-inmate-airs/-->
+  <img src="imageFolder/gallery10.jpg" alt="Ken REidC"><!--Google Images:https://www.picfair.com/pics/04398640-bridge-at-ken-reid-conservation-area-->
+  <img src="imageFolder/gallery12.jpg" alt="Days Inn"><!--Google Images:https://www.booking.com/hotel/ca/days-inn-lindsay.html-->
+  <img src="imageFolder/gallery13.jpg" alt="Loblaws"><!--Google Images:https://www.alamy.com/stock-photo-loblaws-grocery-store-in-lindsay-ontario-canada-72101109.html-->
+  </div>
+  <div class="column">
+  <img src="imageFolder/gallery8.jpg" alt="LindsayFair"><!--Google Images:https://www.lindsayex.com/parade-details-and-entry-form/-->
+  <img src="imageFolder/gallery14.jpg" alt="Highway35"><!--Google Images:http://www.thekingshighway.ca/PHOTOS/Hwy35B_lindsayphotos.htm-->
+  <img src="imageFolder/gallery15.jpg" alt="Construction"><!--Google Images:https://www.mykawartha.com/news-story/8905947-is-a-walmart-announcement-for-lindsay-imminent-/-->
+  <img src="imageFolder/gallery16.jpg" alt="Farm"><!--Google Images: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/html/block_page.html?url=https%3A//deniseandklaus.com/listing/258-highway-36-lindsay-ontario-k9v-4r4-21285029/-->
+  </div>
+</div>
+</div>
+
 </body>
-</html>
+
+<!-- Footer written by Chris Noakes-->
+<footer>
+        <!--Inspiration for footer drawn from w3schools, explorekawarthalakes.com, mdbootstrap.com-->
+        <div class="footerRow">
+			<div class="footerCol">
+			<!--Logo from kawarthalakes.ca -->
+				<a href = "https://www.kawarthalakes.ca/en/index.aspx" target="_blank">
+					<img src="imageFolder/logo_footer.png" alt="Kawartha Logo">
+				</a>
+			</div>
+            <div class="footerCol">
+				<h3 class="footerHeader">Small Header</h3> <!-- Subheader and contact information-->
+                <p id="footerBlurb">Here is a description of Lindsay taking up a third of the footer. lskdfglskdjfn gslkdjf gnslkjdfng lskjdf nlskjdf nglskjdf nglskjdfn glskjdf nskldjf nglskdjf
+				j sjd fghbksjdfh gbsjd fgbksjdfh gbksjd fgbsjd gbksjd gbksjdsljd fgbkjd fhgbksjdfh</p>
+            </div>
+			<!--List of links; idea from w3schools and explore kawartha lakes website-->
+            <div class="footerCol">
+				<h3  class="footerHeader">Some Links</h3>
+                <a href="#" class="footerLinks">Link 1</a>
+                <a href="#" class="footerLinks">Link 2</a>
+                <a href="#" class="footerLinks">Link 3</a>
+                <a href="#" class="footerLinks">Link 4</a>
+				<a href="#" class="footerLinks">Link 5</a>
+            </div>
+			<!--Social media image links-->
+            <div class="footerCol">
+                <h3>Check out our social media</h3>
+				<a href="#" class="socialLinks">
+					<img src="imageFolder/ResizeFB.png" alt="FB Link">
+				</a>
+				<a href="#" class="socialLinks">
+					<img src="imageFolder/instagramIMG.png" alt="FB Link">
+				</a>
+				<a href="#" class="socialLinks">
+					<img src="imageFolder/twitter.jpg" alt="FB Link">
+				</a>
+            </div>
+
+        </div>
+</footer>
+</html> 
+<!--Image gallery taken and edited based of w3schools How To 
+  https://www.w3schools.com/howto/howto_js_image_grid.asp-->

@@ -5,9 +5,14 @@
 <meta charset="UTF-8"> <!-- Used to remove error of undefined charset Declaring Character Encodings in HTML, https://www.w3.org/International/questions/qa-html-encoding-declarations#httphead. -->
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp -->
-<title>Food</title>
+<title>FoodinLindsay</title>
 </head>
 <body>
+     <div class ="foodpage-hero-image">
+        <div class = "hero-text">
+            <h1 class= "heroimage">Comfortable Cuisine</h1>
+        </div>
+    </div>
     <!--****************************NAVIGATION BAR ***********************************************--><!--Created by Mara Van Meer-->
  <ul class="navList">
         <li>
@@ -35,47 +40,73 @@
       <!--Code for navigation bar referenced from CodePen. (n.d). navBar with Dropdown. 
         Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj-->
     
+<!--Content-->
+<div class= "innerContent">
+<div class= "boxed"> 
+  <img class="tims" src="imageFolder/Tims2.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
+  <h2 class="food"> TIM HORTONS- 93 Lindsay St S</h2>
+  <img class="stars" src="imageFolder/1of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->
+  <p class= "food">"This is easily the worst-designed Tim Hortons in history. Although the service is relatively fast for a Timmies, the parking lot is poorly designed. The drive thru is along the back of the building and exits behind several parking spots. Nine times out of ten there is a twenty-car line up, which backs up all the way to the road. Due to the poor layout of the drive thru, cars coming into the Timmies must switch lanes with those coming out. Sound confusing? It is. Don't go here. It gets one star because at least it's not McDonalds." - Jim "JIMBO" Jacobs, Lindsay Local </p>
+</div>
 
+<div class="boxed"> 
+  <img class="tims" src="imageFolder/Tims1.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
+  <h2 class="food"> TIM HORTONS- 191 Kent St W</h2>
+  <img class="stars" src="imageFolder/2of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->
+  <p class= "food" id= "food2">"This Timmies is ideally located, downtown next to Lindsay's HomeHardware. Though it has a large parking lot, it does not have a drive thru. The doors going into the building are located about 1m from the front counter, which means customers have literally no where to line up except through the doors to the foyer. However, this is impossible because the foyer doors open inward. Most of the time no one knows what is going on, and the person at the counter just screams "NEXT" while the customers awkwardly look at each other. Finally, someone goes up, regardless of time arrived. CHAOS." - Crystal Smith, Lindsay Local </p>
+</div>
+<div class= "boxed"> 
+  <img class="tims" src="imageFolder/Tims3.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
+  <h2 class="food"> TIM HORTONS- 329 Kent St W </h2>
+  <img class="stars" src="imageFolder/4of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->
+  <p class= "food" id= "food3">“This Tims is the best in town. There is no seating inside, which is good. I liked Tims better when it wasn’t pretending to be some fancy dine-in restaurant. It is a drive thru Timmies, though you can still order inside if you are walking. The drive thru is phenomenal, allowing a maximum of approximately 30 cars. My main complaint is the staff. They never take my car garbage because it’s ‘against store policy’. I still go here about 3 times a day. They always have glazed cinnamon buns” – Robert “BOBERT” Papadopoulos, Lindsay Local  </p>
+</div>
+
+<h1 id="maptitle">Locations of Lindsay's Best Cuisine </h1>
+<img class="staticmap" src="https://maps.googleapis.com/maps/api/staticmap?center=Lindsay,ON&zoom=13&size=640x640&maptype=roadmap&scale=2&markers=color:red%7Clabel:T%7C44.349935,%20-78.732705&markers=color:red%7Clabel:T%7C44.353690,%20-78.741010&markers=color:red%7Clabel:T%7C44.351288,%20-78.753510&key=AIzaSyBjZiWFPIlj4Gx4aa2YQsphCnOOVR5UBj8" alt= "StaticMap"> <!--Static map created by Grayson Mortimer-->
+
+</div>
+<!--HTML code for food page referenced from Duckett, J. (2011). HTML & CSS Design and Build Websites. Indianapolis: John Wiley & Sons, Inc. --> 
+
+
+<!-- Footer written by Chris Noakes-->
 <footer>
-        <!--Inspiration for footer drawn from w3schools, explorekawarthalakes.com, mdbootstrap.com-->
-        <div class="footerRow">
-			<div class="footerCol">
-			<!--Logo from kawarthalakes.ca -->
-				<a href = "https://www.kawarthalakes.ca/en/index.aspx" target="_blank">
-					<img src="imageFolder/logo_footer.png" alt="Kawartha Logo">
-				</a>
-			</div>
-            <div class="footerCol">
-				<h3 class="footerHeader">Small Header</h3> <!-- Subheader and contact information-->
-                <p id="footerBlurb">Here is a description of Lindsay taking up a third of the footer. lskdfglskdjfn gslkdjf gnslkjdfng lskjdf nlskjdf nglskjdf nglskjdfn glskjdf nskldjf nglskdjf
-				j sjd fghbksjdfh gbsjd fgbksjdfh gbksjd fgbsjd gbksjd gbksjdsljd fgbkjd fhgbksjdfh</p>
-            </div>
-			<!--List of links; idea from w3schools and explore kawartha lakes website-->
-            <div class="footerCol">
-				<h3  class="footerHeader">Some Links</h3>
-                <a href="#" class="footerLinks">Link 1</a>
-                <a href="#" class="footerLinks">Link 2</a>
-                <a href="#" class="footerLinks">Link 3</a>
-                <a href="#" class="footerLinks">Link 4</a>
-				<a href="#" class="footerLinks">Link 5</a>
-            </div>
-			<!--Social media image links-->
-            <div class="footerCol">
-                <h3>Check out our social media</h3>
-				<a href="#" class="socialLinks">
-					<img src="imageFolder/ResizeFB.png" alt="FB Link">
-				</a>
-				<a href="#" class="socialLinks">
-					<img src="imageFolder/instagramIMG.png" alt="FB Link">
-				</a>
-				<a href="#" class="socialLinks">
-					<img src="imageFolder/twitter.jpg" alt="FB Link">
-				</a>
-            </div>
+  <!--Inspiration for footer drawn from w3schools, explorekawarthalakes.com, mdbootstrap.com-->
+  <div class="footerRow">
+<div class="footerCol">
+<!--Logo from kawarthalakes.ca -->
+  <a href = "https://www.kawarthalakes.ca/en/index.aspx" target="_blank">
+    <img src="imageFolder/logo_footer.png" alt="Kawartha Logo">
+  </a>
+</div>
+      <div class="footerCol">
+  <h3 class="footerHeader">Small Header</h3> <!-- Subheader and contact information-->
+          <p id="footerBlurb">Here is a description of Lindsay taking up a third of the footer. lskdfglskdjfn gslkdjf gnslkjdfng lskjdf nlskjdf nglskjdf nglskjdfn glskjdf nskldjf nglskdjf
+  j sjd fghbksjdfh gbsjd fgbksjdfh gbksjd fgbsjd gbksjd gbksjdsljd fgbkjd fhgbksjdfh</p>
+      </div>
+<!--List of links; idea from w3schools and explore kawartha lakes website-->
+      <div class="footerCol">
+  <h3  class="footerHeader">Some Links</h3>
+          <a href="#" class="footerLinks">Link 1</a>
+          <a href="#" class="footerLinks">Link 2</a>
+          <a href="#" class="footerLinks">Link 3</a>
+          <a href="#" class="footerLinks">Link 4</a>
+  <a href="#" class="footerLinks">Link 5</a>
+      </div>
+<!--Social media image links-->
+      <div class="footerCol">
+          <h3>Check out our social media</h3>
+  <a href="#" class="socialLinks">
+    <img src="imageFolder/ResizeFB.png" alt="FB Link">
+  </a>
+  <a href="#" class="socialLinks">
+    <img src="imageFolder/instagramIMG.png" alt="FB Link">
+  </a>
+  <a href="#" class="socialLinks">
+    <img src="imageFolder/twitter.jpg" alt="FB Link">
+  </a>
+      </div>
 
-        </div>
-    </footer>
-<h1>FoodPage</h1>
-
-</body>
+  </div>
+</footer>
 </html>
