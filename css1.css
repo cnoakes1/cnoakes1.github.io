@@ -248,6 +248,11 @@ footer{ /*Chris Noakes*/
 	box-sizing:border-box;
 	height:100%;
 }
+
+.footerImg{ /*Chris Noakes*/
+  width:100%;
+  max-width:276px;
+}
 .footerHeader{ /*Chris Noakes*/
 	margin-top:5px;
 	margin-bottom:10px;
@@ -270,6 +275,100 @@ footer{ /*Chris Noakes*/
 }
 
 /*End footer style*/
+
+/*Our Team Page Style by Chris Noakes*/
+.headerTeam{
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.subheaderTeamRight{
+  text-align: right;
+  font-family: Helvetica;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid #999797;
+  border-radius: 10px;
+  height: 28px;
+  background-color: lightsteelblue;
+}
+
+.subheaderTeamLeft{
+  text-align: Left;
+  font-family: Helvetica;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid #999797;
+  border-radius: 10px;
+  height: 28px;
+  background-color: lightsteelblue;
+}
+
+.imageTeamRight{
+  clear: right;
+  float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 100%;
+  max-width: 250px;
+  vertical-align: top;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.paraTeamLeft{
+  float: left;
+  margin-left: 10px;
+  font-family: Helvetica;
+  text-indent: 50px;
+}
+
+.paraTeamRight{
+  float: right;
+  margin-left: 10px;
+  font-family: Helvetica;
+  text-indent: 50px;
+}
+
+.imageTeamLeft{
+  clear: left;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 100%;
+  max-width: 250px;
+  vertical-align: top;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2)
+}
+/*End Our Team Style by Chris */
+
+
+/*Lindsay Locals Testemonials style by Chris*/
+
+.innerContentLocals{
+  position:relative;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-left: 7%;
+  margin-right: 7%;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(105, 105, 105, 0.8), -12px 0 15px -4px rgba(105, 105, 105, 0.8);
+}
+
+.localsImage{
+  width:100%;
+  max-width: 800px;
+}
+
+.centerText{
+  color:rgb(0, 0, 0);
+  text-shadow:1px 1px 10px white, 1px 1px 10px white;
+  font-size: 40px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .page-header{
     text-transform: uppercase;
