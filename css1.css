@@ -9,7 +9,7 @@
   /*Written by Malena*/
 
   .homepage-hero-image{
-    background-image: url(indexheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/indexheader.jpg);/*Image taken off Google Street View 2019*/
      height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
   position: relative;
   }
   .foodpage-hero-image{
-    background-image: url(foodpageheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/foodpageheader.jpg);/*Image taken off Google Street View 2019*/
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
   position: relative;
   }
   .imagegallery-hero-image{
-    background-image: url(galleryheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/galleryheader.jpg);/*Image taken off Google Street View 2019*/
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@
   position: relative;
   }
   .parkspage-hero-image{
-    background-image: url(parksheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/parksheader.jpg);/*Image taken off Google Street View 2019*/
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@
   position: relative;
   }
   .eventspage-hero-image{
-    background-image: url(eventsheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/eventsheader.jpg);/*Image taken off Google Street View 2019*/
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@
   position: relative;
   }
   .localspage-hero-image{
-    background-image: url(localsheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/localsheader.jpg);/*Image taken off Google Street View 2019*/
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@
   position: relative;
   }
   .mappage-hero-image{
-    background-image: url(mapheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/mapheader.jpg);/*Image taken off Google Street View 2019*/
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@
   position: relative;
   }
   .teampage-hero-image{
-    background-image: url(teamheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/teamheader.jpg);/*Image taken off Google Street View 2019*/
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
