@@ -15,6 +15,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:20%
   }
   .foodpage-hero-image{
     background-image: url(imageFolder/foodpageheader.jpg);/*Image taken off Google Street View 2019*/
@@ -23,6 +24,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:20%
   }
   .imagegallery-hero-image{
     background-image: url(imageFolder/galleryheader.jpg);/*Image taken off Google Street View 2019*/
@@ -31,6 +33,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:20%
   }
   .parkspage-hero-image{
     background-image: url(imageFolder/parksheader.jpg);/*Image taken off Google Street View 2019*/
@@ -39,6 +42,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:20%
   }
   .eventspage-hero-image{
     background-image: url(imageFolder/eventsheader.jpg);/*Image taken off Google Street View 2019*/
@@ -47,6 +51,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:20%
   }
   .localspage-hero-image{
     background-image: url(imageFolder/localsheader.jpg);/*Image taken off Google Street View 2019*/
@@ -55,6 +60,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:20%
   }
   .mappage-hero-image{
     background-image: url(imageFolder/mapheader.jpg);/*Image taken off Google Street View 2019*/
@@ -63,6 +69,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:20%
   }
   .teampage-hero-image{
     background-image: url(imageFolder/teamheader.jpg);/*Image taken off Google Street View 2019*/
@@ -71,6 +78,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:20%
   }
   .hero-text {
     text-align: center;
