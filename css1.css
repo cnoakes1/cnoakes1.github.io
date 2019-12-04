@@ -5,7 +5,88 @@
 .body {
     font-family: Arial, Helvetica, sans-serif;
   }
+ /***********************************Headers for all pages*************************/
+  /*Written by Malena*/
 
+  .homepage-hero-image{
+    background-image: url(indexheader.jpg);/*Image taken off Google Street View 2019*/
+     height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .foodpage-hero-image{
+    background-image: url(foodpageheader.jpg);/*Image taken off Google Street View 2019*/
+   height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .imagegallery-hero-image{
+    background-image: url(galleryheader.jpg);/*Image taken off Google Street View 2019*/
+   height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .parkspage-hero-image{
+    background-image: url(parksheader.jpg);/*Image taken off Google Street View 2019*/
+   height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .eventspage-hero-image{
+    background-image: url(eventsheader.jpg);/*Image taken off Google Street View 2019*/
+   height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .localspage-hero-image{
+    background-image: url(localsheader.jpg);/*Image taken off Google Street View 2019*/
+   height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .mappage-hero-image{
+    background-image: url(mapheader.jpg);/*Image taken off Google Street View 2019*/
+   height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .teampage-hero-image{
+    background-image: url(teamheader.jpg);/*Image taken off Google Street View 2019*/
+   height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  h1.heroimage{
+    color: #E0FFFF;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+  }
+   /*Hero image code inspired by: https://codepen.io/mrnathan8/pen/KwKdmO and 
+   https://css-tricks.com/forums/topic/full-width-header-responsive-image-with-left-right-overflow/ */
+  /*Hero Image text-shadow taken and edited off of: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow */
 
 /*Chris - Set background colour*/
 body{
