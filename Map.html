@@ -43,13 +43,17 @@
   
   <!--Code for navigation bar referenced from CodePen. (n.d). navBar with Dropdown. 
     Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj-->
+
+    <!-- Coded Calendar referenced from https://responsivedesign.is/patterns/calendar/
+     Start of section Written by Grayson Mortimer --> 
+
 <div class= "innerContent">
 <div id="calendar-wrap">
         <header>
             <h1>December 2019</h1>
         </header>
         <div id="calendar">
-            <ul class="weekdays">
+            <ul class="weekdays"> <!-- Creating the list of weekdays at the start of the calendar header-->
                 <li>Sunday</li>
                 <li>Monday</li>
                 <li>Tuesday</li>
@@ -59,7 +63,7 @@
                 <li>Saturday</li>
             </ul>
 
-            <!-- Days in current month -->
+            <!-- Days in current month, running across the top, new week will start at end of ul tag-->
 
             <ul class="days">
                 <li class="day">
@@ -78,15 +82,13 @@
                     <div class="date">5</div>
                     <div class="event">
                             <div class="event-desc">
-                                David Shampoo Company presents Grand Opening Soirée 
+                                <p class="event-desc">David Shampoo Company presents Grand Opening Soirée</p>
                             </div>
                             <div class="event-time">
-                                7:00pm to 11:30pm  </div>
+                                <p class="event-time"> 7:00pm to 11:30pm </p> 
+                            </div>
                             </div>                      
-                </li>
-
-                
-
+                        </li>
                 <li class="day">
                     <div class="date">6</div>                       
                 </li>
@@ -101,11 +103,11 @@
                 <li class="day">
                     <div class="date">8</div>
                     <div class="event">
-                            <div class="event-desc">
-                                Coboconk Legion presents Country Music Jamboree 
+                            <div class="event-desc">   <!-- applying a event class, and time right after the event description -->
+                                <p class="event-desc">Coboconk Legion presents Country Music Jamboree </p>
                             </div>
                             <div class="event-time">
-                                1:00pm to 5:30pm  </div>
+                                <p class="event-time">1:00pm to 5:30pm</p>  </div>
                             </div>                         
                 </li>
                 <li class="day">
@@ -115,10 +117,10 @@
                     <div class="date">10</div>
                     <div class="event">
                             <div class="event-desc">
-                                Caregiver Coaching Services presents Handling the Holidays 
+                                <p class="event-desc">Caregiver Coaching Services presents Handling the Holidays</p>
                             </div>
                             <div class="event-time">
-                                2:00pm to 3:30pm  </div>
+                                <p class="event-time">2:00pm to 3:30pm</p>  </div>
                             </div>                        
                 </li>
                 <li class="day">
@@ -128,20 +130,20 @@
                     <div class="date">12</div>
                     <div class="event">
                             <div class="event-desc">
-                                Canadian Canoe Museum presents Make a Selection of Holiday Ornaments 
+                                <p class="event-desc">Canadian Canoe Museum presents Make a Selection of Holiday Ornaments</p>
                             </div>
                             <div class="event-time">
-                                6:00pm to 8:30pm  </div>
+                                <p class="event-time">6:00pm to 8:30pm</p>  </div>
                             </div>                       
                 </li>
                 <li class="day">
                     <div class="date">13</div>
                     <div class="event">
                             <div class="event-desc">
-                                Mass Exodus from Fleming College
+                                <p class="event-desc">Mass Exodus from Fleming College</p>
                             </div>
                             <div class="event-time">
-                                5:30pm  </div>
+                                <p class="event-time">5:30pm</p>  </div>
                             </div>                      
                 </li>
                 <li class="day">
@@ -165,10 +167,10 @@
                     <div class="date">18</div> 
                     <div class="event">
                             <div class="event-desc">
-                                Kawartha Lakes Public Library presents Scrabble Anyone?
+                                <p class="event-desc">Kawartha Lakes Public Library presents Scrabble Anyone?</p>
                             </div>
                             <div class="event-time">
-                                2:00pm to 3:30pm  </div>
+                                <p class="event-time">2:00pm to 3:30pm</p>  </div>
                             </div>                     
                 </li>
                 <li class="day">
@@ -181,10 +183,10 @@
                     <div class="date">21</div> 
                     <div class="event">
                             <div class="event-desc">
-                            Tweed & Company Theatre presents A Tweed & Company Christmas at St. Andrew's Presbyterian Church
+                                <p class="event-desc">Tweed & Company Theatre presents A Tweed & Company Christmas at St. Andrew's Presbyterian Church</p>
                             </div>
                             <div class="event-time">
-                                5:00pm to 7:30pm  </div>
+                                <p class="event-time">5:00pm to 7:30pm</p>  </div>
                             </div>                        
                 </li>
             </ul>
@@ -202,20 +204,20 @@
                     <div class="date">24</div>  
                     <div class="event">
                             <div class="event-desc">
-                                The Night Before the Christian Holiday Tree Worship
+                                <p class="event-desc">The Night Before the Christian Holiday Tree Worship</p>
                             </div>
                             <div class="event-time">
-                                9:00pm to 9:30pm  </div>
+                                <p class="event-time">9:00pm to 9:30pm</p>  </div>
                             </div>                      
                 </li>
                 <li class="day">
                     <div class="date">25</div>
                     <div class="event">
                             <div class="event-desc">
-                                Christian Holiday Tree Worship
+                                <p class="event-desc">Christian Holiday Tree Worship</p>
                             </div>
                             <div class="event-time">
-                                5:00am to 8:00am </div> 
+                                <p class="event-time">5:00am to 8:00am</p> </div> 
                             </div>                   
                 </li>
                 <li class="day">
@@ -242,10 +244,10 @@
                     <div class="date">31</div> 
                     <div class="event">
                             <div class="event-desc">
-                                New Years Eve
+                                <p class="event-desc">New Years Eve</p>
                             </div>
                             <div class="event-time">
-                            Midnight  </div>
+                                <p class="event-time">Midnight</p>  </div>
                         </div>                  
                 </li>
                 <li class="day other-month">
@@ -258,10 +260,10 @@
                     <div class="date">3</div>
                     <div class="event">
                             <div class="event-desc">
-                                Grayson's Birthday 
+                                <p class="event-desc">Grayson's Birthday</p>
                             </div>
                             <div class="event-time">
-                                All DAY    </div>  
+                                <p class="event-time">All DAY</p>    </div>  
                             </div>                
                 </li>
                 <li class="day other-month">
@@ -272,6 +274,8 @@
         </div><!-- /. calendar -->
     </div><!-- /. wrap -->
 </div>
+    <!-- Coded Calendar referenced from https://responsivedesign.is/patterns/calendar/
+     End of section Written by Grayson Mortimer --> 
 
 </body>
 </html>
