@@ -352,7 +352,7 @@ p{
 /* Written by Mara*/
 
   
-img.stars {
+img.stars { /*Star image css*/
   display: block;
   clear: left;
   margin: 20px;
@@ -364,18 +364,18 @@ img.stars {
   padding-top: 20px;
 }
   
-h2.food {
+h2.food { /*css for header*/
   clear:left;
   margin: 20px;
   text-align: center;
   background-color: lightsteelblue;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 10px; /*Rounds corners, code for rounding corners referenced from MDN Web Docs. (2019). border-radius. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
   width: 90%;
 }
 
 
-img.tims{
+img.tims{ /*css for main image*/
   width: 45%;
   float: right;
   clear:right;
@@ -383,45 +383,40 @@ img.tims{
   margin-right: 20px;
 }
 
-#maptitle{
+
+p.pfood{ /*css for review paragraph*/
+  float:left;
+  clear:left; /*clears everything to the left*/
+  margin: 20px;
+  width: 40%;
+  padding-bottom: 2.5%;
+  padding-top: 10px;
+  min-width: 320px; /*ensures paragraph will remain a certain width*/
+}
+
+#maptitle{ /*centers title for static map*/
   text-align: center;
   clear: left;
   padding-top: 75px 
 }
 
-p.pfood{
-  float:left;
-  clear:left;
-  margin: 20px;
-  width: 40%;
-  padding-bottom: 2.5%;
-  padding-top: 10px;
-  min-width: 320px;
-}
-
-img.staticmap{
+img.staticmap{ 
   width: 100%;
-  align: center;
+  text-align: center; /*Requires centre to prevent coverflow outside "inner content"*/
   padding-right: 20%;
   padding-left: 20%;
   padding-bottom: 100px
-  }
+}
 
-div.bigbox{
+/* Code for div boxes referenced from Stack Overflow. (2012). Make text in paragraphs in div overrflow instead of new lines. Retrieved from Stack Overflow: https://stackoverflow.com/questions/15783079/make-text-in-paraghapghs-in-div-overflow-instead-of-new-lines*/
+
+div.rightbox{ /*right box spans 100% of the inner page*/ 
   border: 1px solid black;
   width: 100%;
   height: 500px;
 }
 
-div.rightbox{
-  border: 1px solid black ;
-  float: right;
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
-}
-
-div.leftbox{
+div.leftbox{ /*left box is contained within right box, but is justified to the left*/ 
   clear: left;
   float: left;
   width: 45%;
@@ -482,12 +477,12 @@ img.eventpic{ /*css for pictures on event page*/
   border-radius: 12px
 }
 
-#secondbutton{
+#secondbutton{ /*Repeat for second button, make it round*/
   background-color: lightblue;
   border-radius: 12px
 }
 
-#lastbutton{
+#lastbutton{ /*Repeat for third button, make it round*/
   background-color: lightblue;
   border-radius: 12px
 }
