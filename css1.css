@@ -657,16 +657,23 @@ footer{ /*Chris Noakes*/
 .testemonialsCard{
   border: solid 1px black;
   padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  height:450px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 15px;
-  background-color: rgb(175, 207, 255);
+  background-color: rgb(167, 189, 221);
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cardText{
   display: block;
   white-space:pre-line;
+  font-size: 20px;
+}
+
+.testimonialsImage{
+  width:100%;
+  max-width: 380px;
 }
 .innerContentLocals{
   position:relative;
