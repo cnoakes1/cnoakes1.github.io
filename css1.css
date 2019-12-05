@@ -85,6 +85,7 @@
     font-size: 50px;
     text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
     white-space: nowrap;
+    font-family: Helvetica;
   }
 
   /* Text wrapping code referenced from css-Tricks. (n.d). white-space. Retrieved from CSS-TRICKS:
