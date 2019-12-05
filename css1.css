@@ -1,4 +1,32 @@
- /***********************************Headers for all pages*************************/
+ /****************General CSS for headings, etc**********/
+/*Written by Malena*/
+
+
+h1{
+    font-family: Helvetica;
+    text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+    font-size: 25px;
+    color: #E0FFFF;
+}
+
+h2{
+    font-family: Helvetica;
+    text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+    font-size: 25px;
+    color: #E0FFFF	
+}
+
+h3{
+  font-family: Helvetica;
+  color: #E0FFFF;
+  text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+}
+
+p{
+  font-family: Helvetica;
+  color: black
+}
+/***********************************Headers for all pages*************************/
   /*Written by Malena*/
 
   .homepage-hero-image{
@@ -145,6 +173,7 @@ html {
   display: block;
   transition: .3s;
   white-space: nowrap;
+  border-radius: 25px; /*Rounded corners written by Malena*/
 }
 
 .navList a:hover { /*Hover colour*/
@@ -173,8 +202,6 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 
 
 /***************************************Main Photo Slideshow***************************************/
-
-* {box-sizing:border-box} /*Watch this, effects everything*/
 
 /* Slideshow container */
 .slideshow-container {
@@ -285,7 +312,7 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 }
 
 /****************Image Gallery************/
-/*Owned by Malena*/
+/*Written by Malena*/
 *{
   box-sizing: border-box;
 }
@@ -308,34 +335,11 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
   margin-top: 10px;
   vertical-align: middle;
   width: 100%;
+  border-radius: 15px; /*Rounded corners written by Malena*/
 } 
 
 /*Image gallery taken and edited based of w3schools How To 
   https://www.w3schools.com/howto/howto_js_image_grid.asp*/
-
-
-/*General CSS for headings, etc*/
-/*written by Mara*/
-
-h1{
-  font-family: Helvetica;
-  color: black;
-}
-
-h2{
-  font-family: Helvetica;
-  color: black
-}
-
-h3{
-  font-family: Helvetica;
-  color: black
-}
-
-p{
-  font-family: Helvetica;
-  color: black
-}
 
 /************************************************** Food Page CSS *******************************************************/
 /* Written by Mara*/
@@ -356,10 +360,13 @@ h2.food { /*css for header*/
   clear:left;
   margin: 20px;
   text-align: center;
-  background-color: lightsteelblue;
+  background-color: black;
   border: 1px solid black;
   border-radius: 10px; /*Rounds corners, code for rounding corners referenced from MDN Web Docs. (2019). border-radius. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
   width: 90%;
+  color: #E0FFFF;
+  text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+  height: 35px;
 }
 
 
@@ -370,6 +377,7 @@ img.tims{ /*css for main image*/
   clear:right;
   margin-top: 20px;
   margin-right: 20px;
+  border-radius: 25px; /*Rounded corners written by Malena*/
   
 }
 
@@ -387,7 +395,9 @@ p.pfood{ /*css for review paragraph*/
 #maptitle{ /*centers title for static map*/
   text-align: center;
   clear: left;
-  padding-top: 75px 
+  padding-top: 75px; 
+  color: #E0FFFF;
+  text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
 }
 
 img.staticmap{ 
@@ -474,11 +484,14 @@ img.eventpic{ /*css for pictures on event page*/
     width: 100%;
     box-shadow: 3px 5px 7px rgba(105, 105, 105, 0.8);
     padding:10px;
+    border-radius: 25px; /*Rounded corners written by Malena*/
+	  
   }
   .pintrestimage {
     width:100%;
     max-width:100%;
     height:auto;
+    border-radius: 25px; /*Rounded corners written by Malena*/
 }
 
 
@@ -543,7 +556,7 @@ footer{ /*Chris Noakes*/
 
 /*End footer style*/
 
-/*Our Team Page Style by Chris Noakes*/
+/*******************Our Team Page Style by Chris Noakes********************/
 
 
 .subheaderTeamRight{
@@ -552,12 +565,11 @@ footer{ /*Chris Noakes*/
   margin-bottom: 0px;
   margin-left: 10px;
   margin-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 25px;
   border: 2px solid #999797;
   border-radius: 10px;
-  height: 28px;
-  background-color: lightsteelblue;
+  height: 38px;
+  background-color: black;
+  white-space: nowrap
 }
 
 .subheaderTeamLeft{
@@ -568,8 +580,9 @@ footer{ /*Chris Noakes*/
   margin-right: 10px;
   border: 2px solid #999797;
   border-radius: 10px;
-  height: 28px;
-  background-color: lightsteelblue;
+  height: 38px;
+  background-color: black;
+  white-space: nowrap
 }
 
 @media screen and (max-width: 450px){
@@ -589,16 +602,15 @@ footer{ /*Chris Noakes*/
   width: 100%;
   max-width: 250px;
   vertical-align: top;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2)
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px; /*Rounded corners written by Malena*/
 }
 
 .paraTeamLeft{
   float: left;
   margin-left: 10px;
   font-family: Helvetica;
-  font-size: 20px;
   text-indent: 50px;
-  line-height: 35px;
 }
 
 .paraTeamRight{
@@ -606,8 +618,6 @@ footer{ /*Chris Noakes*/
   margin-left: 10px;
   font-family: Helvetica;
   text-indent: 50px;
-  font-size: 20px;
-  line-height: 35px;
 }
 
 .imageTeamLeft{
@@ -619,12 +629,13 @@ footer{ /*Chris Noakes*/
   width: 100%;
   max-width: 250px;
   vertical-align: top;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2)
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px; /*Rounded corners written by Malena*/
 }
 /*End Our Team Style by Chris */
 
 
-/*Lindsay Locals Testemonials style by Chris*/
+/*********************************Lindsay Locals Testemonials style by Chris****************/
 
 .testemonialsCol{
   background-color: rgb(255, 255, 255);
@@ -642,13 +653,12 @@ footer{ /*Chris Noakes*/
   }
 
 .testemonialsCard{
-  border: solid 1px black;
   padding: 10px;
   height:450px;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 15px;
-  background-color: rgb(167, 189, 221);
+  background-color: #E0FFFF;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -681,10 +691,11 @@ footer{ /*Chris Noakes*/
 .localsImage{
   width:100%;
   max-width: 800px;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(105, 105, 105, 0.8), -12px 0 15px -4px rgba(105, 105, 105, 0.8);
 }
 
 .centerText{
-  color:rgb(255, 255, 255);
+  color:#E0FFFF;
   text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
   font-size: 40px;
   position: absolute;
@@ -731,7 +742,7 @@ footer{ /*Chris Noakes*/
 
 #calendar ul.weekdays {
   height: 40px;
-  background: #8e352e;
+  background: black;
 }
 
 #calendar ul.weekdays li {
@@ -740,8 +751,9 @@ footer{ /*Chris Noakes*/
   line-height: 20px;
   border: none !important;
   padding: 10px 6px;
-  color: #fff;
   font-size: 13px;
+  color: #E0FFFF;
+  text-shadow: 2px 2px 2px white, 0 0 1em rgb(224, 253, 242), 0 0 0.2em white;
 }
 
 #calendar .days li {
@@ -756,8 +768,8 @@ footer{ /*Chris Noakes*/
   text-align: center;
   margin-bottom: 5px;
   padding: 4px;
-  background: #333;
-  color: #fff;
+  background: #E0FFFF;
+  color: black;
   width: 20px;
   border-radius: 50%;
   float: right;
