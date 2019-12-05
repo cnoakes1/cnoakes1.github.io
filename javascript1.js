@@ -1,7 +1,7 @@
 function showSlides(n) {
-  let i;
-  const slides = document.getElementsByClassName('mySlides');
-  const dots = document.getElementsByClassName('dot');
+  var i;
+  var slides = document.getElementsByClassName('mySlides');
+  var dots = document.getElementsByClassName('dot');
   if (n>slides.length) {slideIndex = 1};
   if (n < 1) { slideIndex = slides.length };
   for (i = 0; i < slides.length; i++) {
@@ -15,7 +15,7 @@ function showSlides(n) {
 };
 
 /* JavaScript for home page written by Grayson Mortimer */
-let slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
