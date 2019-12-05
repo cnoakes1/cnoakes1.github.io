@@ -562,7 +562,8 @@ footer{ /*Chris Noakes*/
   border: 2px solid #999797;
   border-radius: 10px;
   height: 38px;
-  background-color: lightsteelblue;
+  background-color: black;
+  white-space: nowrap
 }
 
 .subheaderTeamLeft{
@@ -574,7 +575,7 @@ footer{ /*Chris Noakes*/
   border: 2px solid #999797;
   border-radius: 10px;
   height: 38px;
-  background-color: #E0FFFF;
+  background-color: black;
   white-space: nowrap
 }
 
