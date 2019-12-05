@@ -376,12 +376,13 @@ h2.food { /*css for header*/
 
 
 img.tims{ /*css for main image*/
+  overflow: hidden;
   width: 45%;
   float: right;
   clear:right;
   margin-top: 20px;
   margin-right: 20px;
-  overflow: hidden;
+  
 }
 
 
