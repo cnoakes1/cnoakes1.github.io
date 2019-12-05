@@ -91,7 +91,12 @@
     color: #E0FFFF;
     font-size: 50px;
     text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+    white-space: nowrap;
   }
+
+  /* Text wrapping code referenced from css-Tricks. (n.d). white-space. Retrieved from CSS-TRICKS:
+   https://css-tricks.com/almanac/properties/w/whitespace/ */
+
    /*Hero image code inspired by: https://codepen.io/mrnathan8/pen/KwKdmO and 
    https://css-tricks.com/forums/topic/full-width-header-responsive-image-with-left-right-overflow/ */
   /*Hero Image text-shadow taken and edited off of: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow */
@@ -135,8 +140,8 @@ html {
 
 .navList a { /*text for nav bar*/
   color: black;
-  padding: 12px;
   text-decoration: none;
+  padding: 12px;
   display: block;
   transition: .3s;
   white-space: nowrap;
@@ -346,83 +351,79 @@ p{
 /************************************************** Food Page CSS *******************************************************/
 /* Written by Mara*/
 
-h1.food {
-  text-align: center;
-  padding-left: 100px;
-  padding-bottom: 50px;
-  padding-top: 25px;
-  }
   
-img.stars {
-display: block;
-clear: left;
-padding-left: 100px;
+img.stars { /*Star image css*/
+  display: block;
+  clear: left;
+  margin: 20px;
+  margin-top: 5%;
+  width: 40%;
+  min-width: 150px;
+  height: 55%;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
   
-h2.food {
+h2.food { /*css for header*/
   clear:left;
-  margin: 5px;
-  padding-left: 100px;
+  margin: 20px;
+  text-align: center;
   background-color: lightsteelblue;
   border: 1px solid black;
-  border-radius: 10px;
-}
-
-#tims1{
-display: block;
-clear: right;
-float: right;
-width: 40%;
-padding-right: 100px;
-padding-bottom: 100px;
-padding-top: 10px;
-}
-
-img.tims{
-display: block;
-clear: right;
-float: right;
-width: 40%;
-padding-right: 100px;
-padding-bottom: 100px;
-padding-top: 50px
-}
-
-#food2{
-  /* padding-bottom: 210px; */
-  padding-left: 100px;
-  width: 50%;
+  border-radius: 10px; /*Rounds corners, code for rounding corners referenced from MDN Web Docs. (2019). border-radius. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
+  width: 90%;
 }
 
 
-#maptitle{
+img.tims{ /*css for main image*/
+  overflow: hidden;
+  width: 45%;
+  float: right;
+  clear:right;
+  margin-top: 20px;
+  margin-right: 20px;
+  
+}
+
+
+p.pfood{ /*css for review paragraph*/
+  float:left;
+  clear:left; /*clears everything to the left*/
+  margin: 20px;
+  width: 40%;
+  padding-bottom: 2.5%;
+  padding-top: 10px;
+  min-width: 320px; /*ensures paragraph will remain a certain width*/
+}
+
+#maptitle{ /*centers title for static map*/
   text-align: center;
   clear: left;
   padding-top: 75px 
 }
 
-p.food{
-float:left;
-padding-left: 100px;
-margin: 0px;
-width: 50%;
-/* padding-bottom: 250px */
-}
-
-img.staticmap{
+img.staticmap{ 
+  text-align: center; /*Requires centre to prevent coverflow outside "inner content"*/
   width: 100%;
-  float: center; 
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-right: 20%;
+  padding-left: 20%;
   padding-bottom: 100px
-  }
-
-div.boxed{
-  border: 1px solid black ;
-  padding-bottom: 400px;
-  padding-top: 50px
 }
 
+/* Code for div boxes referenced from Stack Overflow. (2012). Make text in paragraphs in div overrflow instead of new lines. Retrieved from Stack Overflow: https://stackoverflow.com/questions/15783079/make-text-in-paraghapghs-in-div-overflow-instead-of-new-lines*/
+
+div.rightbox{ /*right box spans 100% of the inner page*/ 
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+}
+
+div.leftbox{ /*left box is contained within right box, but is justified to the left*/ 
+  clear: left;
+  float: left;
+  width: 45%;
+  height: 175px; 
+}
 /*HTML code for food page referenced from Duckett, J. (2011). HTML & CSS Design and Build Websites. Indianapolis: John Wiley & Sons, Inc.*/
 /*end of food page css*/
 
@@ -445,8 +446,8 @@ h2.date{ /*Second heading */
   clear: left;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 2%;
+  padding-top: 2%;
   border: 1px solid black;
   background-color: lightsteelblue;
   }
@@ -462,12 +463,15 @@ h3.activity{ /*Third heading*/
 
 p.description{ /*description css*/
   text-align: left;
+  margin: 0.5%
   }
 
 img.eventpic{ /*css for pictures on event page*/
   width: 100%;
-  padding-left: 400px;
-  padding-right: 400px;
+  height: auto;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 #mybutton{ /*Change the colour of the button, make it round*/
@@ -475,12 +479,12 @@ img.eventpic{ /*css for pictures on event page*/
   border-radius: 12px
 }
 
-#secondbutton{
+#secondbutton{ /*Repeat for second button, make it round*/
   background-color: lightblue;
   border-radius: 12px
 }
 
-#lastbutton{
+#lastbutton{ /*Repeat for third button, make it round*/
   background-color: lightblue;
   border-radius: 12px
 }

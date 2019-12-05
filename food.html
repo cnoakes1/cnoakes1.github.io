@@ -16,59 +16,69 @@
     <!--****************************NAVIGATION BAR ***********************************************--><!--Created by Mara Van Meer-->
  <ul class="navList">
         <li>
-          <a href="#one">Home</a>
+          <a href="index.html">Home</a>
       
         </li>
         <li><a href="#two">Attractions</a>
           <div>
             <a href="#">Food</a>
-            <a href="#">Parks</a>
-            <a href="#">Events</a>
+            <a href="Parks.html">Parks</a>
+            <a href="Events.html">Events</a>
           </div>
         </li>
         <li>
           <a href="#three">Testimonials</a>
           <div>
-            <a href="#">Our Team</a>
-            <a href="#">Lindsay Locals</a>
+            <a href="OurTeam.html">Our Team</a>
+            <a href="Locals.html">Lindsay Locals</a>
           </div>
         </li>
-        <li><a href="#four">Image Gallery</a></li>
-        <li><a href="#four">Map</a></li>
+        <li><a href="ImageGallery.html">Image Gallery</a></li>
+        <li><a href="Cal.html">Calendar</a></li>
       </ul>
       
       <!--Code for navigation bar referenced from CodePen. (n.d). navBar with Dropdown. 
         Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj-->
+            
+<!--Content, created by Mara Van Meer-->
+  <div class= "innerContent">
+   
+    <div class= "rightbox"> <!--Box to hold picture and text-->
+        <div class= "leftbox"> <!-- Small box in the top lefthand corner of bigbox-->
+            <h2 class="food"> TIM HORTONS- 93 Lindsay St S</h2>
+            <img class="stars" src="imageFolder/1of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->    
+        </div>  
+        <img class="tims" src="imageFolder/Tims2.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
+          <p class= "pfood">"This is easily the worst-designed Tim Hortons in history. Although the service is relatively fast for a Timmies, the parking lot is poorly designed. The drive thru is along the back of the building and exits behind several parking spots. Nine times out of ten there is a twenty-car line up, which backs up all the way to the road. Due to the poor layout of the drive thru, cars coming into the Timmies must switch lanes with those coming out. Sound confusing? It is. Don't go here. It gets one star because at least it's not McDonalds." - Jim "JIMBO" Jacobs, Lindsay Local </p>   
+    </div>
+
+
+
+    <div class= "rightbox">
+        <div class= "leftbox">
+            <h2 class="food"> TIM HORTONS- 191 Kent St W</h2>
+            <img class="stars" src="imageFolder/2of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->     
+        </div>
+        <img class="tims" src="imageFolder/Tims1.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
+        <p class= "pfood">"This Timmies is ideally located, downtown next to Lindsay's HomeHardware. Though it has a large parking lot, it does not have a drive thru. The doors going into the building are located about 1m from the front counter, which means customers have literally no where to line up except through the doors to the foyer. However, this is impossible because the foyer doors open inward. Most of the time no one knows what is going on, and the person at the counter just screams "NEXT" while the customers awkwardly look at each other. Finally, someone goes up, regardless of time arrived. CHAOS." - Crystal Smith, Lindsay Local </p>
+    </div>
+
+    <div class= "rightbox">
+        <div class= "leftbox">
+            <h2 class="food"> TIM HORTONS- 329 Kent St W </h2>
+            <img class="stars" src="imageFolder/4of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->
+        </div>
+        <img class="tims" src="imageFolder/Tims3.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
+        <p class= "pfood" id= "food3">“This Tims is the best in town. There is no seating inside, which is good. I liked Tims better when it wasn’t pretending to be some fancy dine-in restaurant. It is a drive thru Timmies, though you can still order inside if you are walking. The drive thru is phenomenal, allowing a maximum of approximately 30 cars. My main complaint is the staff. They never take my car garbage because it’s ‘against store policy’. I still go here about 3 times a day. They always have glazed cinnamon buns” – Robert “BOBERT” Papadopoulos, Lindsay Local  </p>
+    </div>
+
+    <h1 id="maptitle">Locations of Lindsay's Best Cuisine </h1>
+    <img class="staticmap" src="https://maps.googleapis.com/maps/api/staticmap?center=Lindsay,ON&zoom=13&size=640x640&maptype=roadmap&scale=2&markers=color:red%7Clabel:T%7C44.349935,%20-78.732705&markers=color:red%7Clabel:T%7C44.353690,%20-78.741010&markers=color:red%7Clabel:T%7C44.351288,%20-78.753510&key=AIzaSyBjZiWFPIlj4Gx4aa2YQsphCnOOVR5UBj8" alt= "StaticMap"> <!--Static map created by Grayson Mortimer-->
     
-<!--Content-->
-<div class= "innerContent">
-<div class= "boxed"> 
-  <img class="tims" src="imageFolder/Tims2.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
-  <h2 class="food"> TIM HORTONS- 93 Lindsay St S</h2>
-  <img class="stars" src="imageFolder/1of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->
-  <p class= "food">"This is easily the worst-designed Tim Hortons in history. Although the service is relatively fast for a Timmies, the parking lot is poorly designed. The drive thru is along the back of the building and exits behind several parking spots. Nine times out of ten there is a twenty-car line up, which backs up all the way to the road. Due to the poor layout of the drive thru, cars coming into the Timmies must switch lanes with those coming out. Sound confusing? It is. Don't go here. It gets one star because at least it's not McDonalds." - Jim "JIMBO" Jacobs, Lindsay Local </p>
-</div>
+  </div>
+<!--HTML code for justifying images on the food page referenced from Duckett, J. (2011). HTML & CSS Design and Build Websites. Indianapolis: John Wiley & Sons, Inc. --> 
 
-<div class="boxed"> 
-  <img class="tims" src="imageFolder/Tims1.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
-  <h2 class="food"> TIM HORTONS- 191 Kent St W</h2>
-  <img class="stars" src="imageFolder/2of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->
-  <p class= "food" id= "food2">"This Timmies is ideally located, downtown next to Lindsay's HomeHardware. Though it has a large parking lot, it does not have a drive thru. The doors going into the building are located about 1m from the front counter, which means customers have literally no where to line up except through the doors to the foyer. However, this is impossible because the foyer doors open inward. Most of the time no one knows what is going on, and the person at the counter just screams "NEXT" while the customers awkwardly look at each other. Finally, someone goes up, regardless of time arrived. CHAOS." - Crystal Smith, Lindsay Local </p>
-</div>
-<div class= "boxed"> 
-  <img class="tims" src="imageFolder/Tims3.PNG" alt= "Tims"/> <!--Image is a screen shot of google maps, street view, 2019-->
-  <h2 class="food"> TIM HORTONS- 329 Kent St W </h2>
-  <img class="stars" src="imageFolder/4of5.PNG" alt= "star rating"/> <!--Image created using MSpaint-->
-  <p class= "food" id= "food3">“This Tims is the best in town. There is no seating inside, which is good. I liked Tims better when it wasn’t pretending to be some fancy dine-in restaurant. It is a drive thru Timmies, though you can still order inside if you are walking. The drive thru is phenomenal, allowing a maximum of approximately 30 cars. My main complaint is the staff. They never take my car garbage because it’s ‘against store policy’. I still go here about 3 times a day. They always have glazed cinnamon buns” – Robert “BOBERT” Papadopoulos, Lindsay Local  </p>
-</div>
-
-<h1 id="maptitle">Locations of Lindsay's Best Cuisine </h1>
-<img class="staticmap" src="https://maps.googleapis.com/maps/api/staticmap?center=Lindsay,ON&zoom=13&size=640x640&maptype=roadmap&scale=2&markers=color:red%7Clabel:T%7C44.349935,%20-78.732705&markers=color:red%7Clabel:T%7C44.353690,%20-78.741010&markers=color:red%7Clabel:T%7C44.351288,%20-78.753510&key=AIzaSyBjZiWFPIlj4Gx4aa2YQsphCnOOVR5UBj8" alt= "StaticMap"> <!--Static map created by Grayson Mortimer-->
-
-</div>
-<!--HTML code for food page referenced from Duckett, J. (2011). HTML & CSS Design and Build Websites. Indianapolis: John Wiley & Sons, Inc. --> 
-
-
+</body>
 <!-- Footer written by Chris Noakes-->
 <footer>
   <!--Inspiration for footer drawn from w3schools, explorekawarthalakes.com, mdbootstrap.com-->
