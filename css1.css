@@ -85,7 +85,6 @@
     font-size: 50px;
     text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
     white-space: nowrap;
-    font-family: Helvetica;
   }
 
   /* Text wrapping code referenced from css-Tricks. (n.d). white-space. Retrieved from CSS-TRICKS:
@@ -293,7 +292,7 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 } 
 /* Create two equal columns that floats next to each other */ 
 .column {
-	flex-wrap: 25%; 
+	flex-wrap:wrap; 
   flex: 25%;
   padding: 10px;
 } 
