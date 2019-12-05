@@ -88,6 +88,12 @@
     font-family: Helvetica;
   }
 
+  @media screen and (max-width: 550px){ /* MDN Web Docs. 2019. @media. Retrieved from MDN Web Docs https://developer.mozilla.org/en-US/docs/Web/CSS/@media*/
+    h1.heroimage{
+      font-size: 20px;
+    }
+  }
+
   /* Text wrapping code referenced from css-Tricks. (n.d). white-space. Retrieved from CSS-TRICKS:
    https://css-tricks.com/almanac/properties/w/whitespace/ */
 
@@ -342,7 +348,6 @@ img.stars { /*Star image css*/
   margin-top: 5%;
   width: 40%;
   min-width: 150px;
-  height: 55%;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -376,7 +381,7 @@ p.pfood{ /*css for review paragraph*/
   width: 40%;
   padding-bottom: 2.5%;
   padding-top: 10px;
-  min-width: 320px; /*ensures paragraph will remain a certain width*/
+  min-width: 295px; /*ensures paragraph will remain a certain width*/
 }
 
 #maptitle{ /*centers title for static map*/
@@ -422,10 +427,9 @@ h2.date{ /*Second heading */
   clear: left;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 2%;
-  padding-top: 2%;
+  padding:2%;
   border: 1px solid black;
-  background-color: lightsteelblue;
+  background-color:black;
   }
 
 h3.activity{ /*Third heading*/
@@ -433,21 +437,19 @@ h3.activity{ /*Third heading*/
   border: 1px solid black;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding:2%;
 }
 
 p.description{ /*description css*/
   text-align: left;
-  margin: 0.5%
+  margin:2%;
   }
 
 img.eventpic{ /*css for pictures on event page*/
   width: 100%;
-  height: auto;
-  text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  max-width: 1600px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 
@@ -460,7 +462,11 @@ img.eventpic{ /*css for pictures on event page*/
     column-gap: 1em;
     padding: 1em;
   }
-
+  @media screen and (max-width: 450px){
+    .masonry{
+      column-count: 1;
+    }
+  }
   .pintrestitem { /* Masonry bricks / elements  adapted from https://w3bits.com/css-masonry/ */
     background-color: #eee;
     display: inline-block;
@@ -566,6 +572,15 @@ footer{ /*Chris Noakes*/
   background-color: lightsteelblue;
 }
 
+@media screen and (max-width: 450px){
+  .subheaderTeamRight{
+    font-size: 15px;
+  }
+  .subheaderTeamLeft{
+    font-size: 15px;
+  }
+  }
+
 .imageTeamRight{
   clear: right;
   float: right;
@@ -600,6 +615,7 @@ footer{ /*Chris Noakes*/
   float: left;
   margin-right: 20px;
   margin-left: 20px;
+  padding-right: 6px;
   width: 100%;
   max-width: 250px;
   vertical-align: top;
@@ -619,6 +635,12 @@ footer{ /*Chris Noakes*/
   margin-bottom:20px;
 }
 
+@media only screen and (max-width: 900px){
+  .testemonialsCol{
+    width:100%;
+  }
+  }
+
 .testemonialsCard{
   border: solid 1px black;
   padding: 10px;
@@ -631,9 +653,15 @@ footer{ /*Chris Noakes*/
 }
 
 .cardText{
-  display: block;
   white-space:pre-line;
   font-size: 20px;
+  display: block;
+}
+
+@media only screen and (max-width: 900px){
+  .cardText{
+    font-size:12px;
+  }
 }
 
 .testimonialsImage{
@@ -663,6 +691,12 @@ footer{ /*Chris Noakes*/
   top:50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 800px){
+  .centerText{
+    font-size: 20px;
+  }
 }
 
 /* Calendar Responsive and Display Content */ 
