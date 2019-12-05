@@ -1,4 +1,32 @@
- /***********************************Headers for all pages*************************/
+ /****************General CSS for headings, etc**********/
+/*Written by Malena*/
+
+
+h1{
+    font-family: Helvetica;
+    text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+    font-size: 25px;
+    color: #E0FFFF;
+}
+
+h2{
+    font-family: Helvetica;
+    text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+    font-size: 25px;
+    color: #E0FFFF	
+}
+
+h3{
+  font-family: Helvetica;
+  color: #E0FFFF;
+  text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
+}
+
+p{
+  font-family: Helvetica;
+  color: black
+}
+/***********************************Headers for all pages*************************/
   /*Written by Malena*/
 
   .homepage-hero-image{
@@ -307,34 +335,6 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 /*Image gallery taken and edited based of w3schools How To 
   https://www.w3schools.com/howto/howto_js_image_grid.asp*/
 
-
-/*General CSS for headings, etc*/
-/*written by Mara*/
-
-h1{
-    font-family: Helvetica;
-    text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
-    font-size: 25px;
-}
-
-h2{
-    font-family: Helvetica;
-    text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
-    font-size: 25px;
-}
-
-h3{
-  font-family: Helvetica;
-  color: #E0FFFF;
-  text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
-/*Written by Malena*/
-}
-
-p{
-  font-family: Helvetica;
-  color: black
-}
-
 /************************************************** Food Page CSS *******************************************************/
 /* Written by Mara*/
 
@@ -355,7 +355,7 @@ h2.food { /*css for header*/
   clear:left;
   margin: 20px;
   text-align: center;
-  background-color: lightsteelblue;
+  background-color: black;
   border: 1px solid black;
   border-radius: 10px; /*Rounds corners, code for rounding corners referenced from MDN Web Docs. (2019). border-radius. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
   width: 90%;
@@ -574,7 +574,8 @@ footer{ /*Chris Noakes*/
   border: 2px solid #999797;
   border-radius: 10px;
   height: 38px;
-  background-color: lightsteelblue;
+  background-color: #E0FFFF;
+  white-space: nowrap
 }
 
 .imageTeamRight{
@@ -629,13 +630,12 @@ footer{ /*Chris Noakes*/
 }
 
 .testemonialsCard{
-  border: solid 1px black;
   padding: 10px;
   height:450px;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 15px;
-  background-color: rgb(167, 189, 221);
+  background-color: #E0FFFF;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -662,10 +662,11 @@ footer{ /*Chris Noakes*/
 .localsImage{
   width:100%;
   max-width: 800px;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(105, 105, 105, 0.8), -12px 0 15px -4px rgba(105, 105, 105, 0.8);
 }
 
 .centerText{
-  color:rgb(255, 255, 255);
+  color:#E0FFFF;
   text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
   font-size: 40px;
   position: absolute;
