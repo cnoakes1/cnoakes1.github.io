@@ -1,3 +1,5 @@
+/*  ********************Program Runs Index page image sider************* */ 
+/* section written by Grayson Mortimer  */
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName('mySlides');
@@ -27,3 +29,5 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+/* Referenced/ adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+/* End of section written by Grayson Mortimer  */
