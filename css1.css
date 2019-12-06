@@ -1,6 +1,7 @@
- /****************General CSS for headings, etc**********/
-/*Written by Malena*/
+/****************** General CSS for headings, etc ******************/
+  /*Written by Malena*/
 
+  /*CSS Here sets the font styles for main h1, h2, h3, and p tags*/
 
 h1{
     font-family: Helvetica;
@@ -26,11 +27,12 @@ p{
   font-family: Helvetica;
   color: black
 }
-/***********************************Headers for all pages*************************/
+/****************** Headers for all pages ******************/
   /*Written by Malena*/
+  /*CSS here defines style, format, positioning, and responsiveness of page headers (hero images) */
 
   .homepage-hero-image{
-    background-image: url(imageFolder/indexheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/indexheader.jpg);
      height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +41,7 @@ p{
   padding-bottom:20%
   }
   .foodpage-hero-image{
-    background-image: url(imageFolder/foodpageheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/foodpageheader.jpg);
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +50,7 @@ p{
   padding-bottom:20%
   }
   .imagegallery-hero-image{
-    background-image: url(imageFolder/galleryheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/galleryheader.jpg);
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +59,7 @@ p{
   padding-bottom:20%
   }
   .parkspage-hero-image{
-    background-image: url(imageFolder/parksheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/parksheader.jpg);
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,7 +68,7 @@ p{
   padding-bottom:20%
   }
   .eventspage-hero-image{
-    background-image: url(imageFolder/eventsheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/eventsheader.jpg);
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +77,7 @@ p{
   padding-bottom:20%
   }
   .localspage-hero-image{
-    background-image: url(imageFolder/localsheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/localsheader.jpg);
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,7 +86,7 @@ p{
   padding-bottom:20%
   }
   .mappage-hero-image{
-    background-image: url(imageFolder/mapheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/mapheader.jpg);
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +95,7 @@ p{
   padding-bottom:20%
   }
   .teampage-hero-image{
-    background-image: url(imageFolder/teamheader.jpg);/*Image taken off Google Street View 2019*/
+    background-image: url(imageFolder/teamheader.jpg);
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,6 +103,7 @@ p{
   position: relative;
   padding-bottom:20%
   }
+
   .hero-text {
     text-align: center;
     position: absolute;
@@ -116,32 +119,42 @@ p{
     font-family: Helvetica;
   }
 
-  @media screen and (max-width: 550px){ /* MDN Web Docs. 2019. @media. Retrieved from MDN Web Docs https://developer.mozilla.org/en-US/docs/Web/CSS/@media*/
+  @media screen and (max-width: 550px){ /*Written by Chris. Applies contained CSS when screen becomes specified width*/
     h1.heroimage{
       font-size: 20px;
     }
   }
+  
+  /*@media syntax referenced from MDN Web Docs. 2019. @media. Retrieved from MDN Web Docs https://developer.mozilla.org/en-US/docs/Web/CSS/@media*/
 
-  /* Text wrapping code referenced from css-Tricks. (n.d). white-space. Retrieved from CSS-TRICKS:
+  /*Text wrapping code referenced from css-Tricks. (n.d). white-space. Retrieved from CSS-TRICKS:
    https://css-tricks.com/almanac/properties/w/whitespace/ */
 
-   /*Hero image code inspired by: https://codepen.io/mrnathan8/pen/KwKdmO and 
+  /*Hero image code inspired by: https://codepen.io/mrnathan8/pen/KwKdmO and 
    https://css-tricks.com/forums/topic/full-width-header-responsive-image-with-left-right-overflow/ */
+  
   /*Hero Image text-shadow taken and edited off of: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow */
 
-/*Chris - Set background colour*/
+  /*All Hero Images taken off Google Street View 2019*/
+
+/****************** Background Colour and Inner Content Page ******************/
+  /*Written by Chris*/
+  /*CSS here applies background colour and a blank inner content page to create borders on each page*/
+
 body{
   background-color: rgb(224, 253, 242)
 }
-/*Chris - Set inner content box for entire page*/
-
 .innerContent{
   background-color: rgb(255, 255, 255);
   margin-left: 7%;
   margin-right: 7%;
   box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(105, 105, 105, 0.8), -12px 0 15px -4px rgba(105, 105, 105, 0.8);
 }
-/**************************************NAVIGATION BAR**************************************/
+
+/****************** NAVIGATION BAR ******************/
+  /*Written by Malena and Mara */
+  /*CSS here sets general navigation bar style, formatting, text style, hover properties, and positioning*/
+
 body,
 html {
   padding: 0;
@@ -151,40 +164,39 @@ html {
   flex-direction: column
 }
 
-.navList { /*General Nav properties*/
+.navList { 
   background-color: white; 
-  border-bottom: 1px solid black; /*thin line at the bottom of nav bar*/
-  box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.2); /*grey shadow*/
+  border-bottom: 1px solid black; 
+  box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.2);
   list-style-type: none;
   margin: 0;
   padding: 0;
   z-index: 100;
-  /*keep it high*/
 }
 
-.navList li { /*controls float of nav bar*/
+.navList li { 
   float: left;
 }
 
-.navList a { /*text for nav bar*/
+.navList a { 
   color: black;
   text-decoration: none;
   padding: 12px;
   display: block;
   transition: .3s;
   white-space: nowrap;
-  border-radius: 25px; /*Rounded corners written by Malena*/
+  border-radius: 25px; 
 }
 
-.navList a:hover { /*Hover colour*/
+.navList a:hover { 
   background-color: #E0FFFF;
 }
 
-.navList > li { /*hide the list within the nav element*/
+.navList > li { 
   position: relative;
 }
 
-.navList > li > div { /*List properties*/
+.navList > li > div { 
   visibility: hidden;
   position: absolute;
   background-color: white;
@@ -193,17 +205,20 @@ html {
   opacity: 0;
 }
 
-.navList > li:hover > div { /*hover properties for list*/
+.navList > li:hover > div {
   visibility: visible;
   opacity: 1;
 }
+
 /*Code for navigation bar referenced from CodePen. (n.d). navBar with Dropdown. 
 Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 
 
-/***************************************Main Photo Slideshow***************************************/
+/****************** Main Photo Slideshow ******************/
+  /*Written by Grayson*/
+  /*The following CSS defines the properties of the index page slideshow. The responsiveness of the slideshow is also defined here*/
+  /*Style also applies to the dots, text, and border associated with the slideshow*/
 
-/* Slideshow container */
 .slideshow-container {
   position: relative;
   margin: auto;
@@ -215,14 +230,14 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 	text-align:center;
 	top:10%;
 }	
-/* Hide the images by default */
+
 .mySlides {
   display: none;
   width:auto;
   height:auto;
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -238,18 +253,18 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through*/
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+
 .text {
   font-family:Poppins, sans-serif;
   text-transform: uppercase;
@@ -268,7 +283,7 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
   text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
 }
 
-/* Number text (1/3 etc) */
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -277,7 +292,6 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -293,7 +307,6 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -311,8 +324,10 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
   to {opacity: 1}
 }
 
-/****************Image Gallery************/
-/*Written by Malena*/
+/****************** Image Gallery ******************/
+  /*Written by Malena*/
+  /*CSS here creates columns for the image gallery and defines the style of the images*/
+
 *{
   box-sizing: border-box;
 }
@@ -324,7 +339,6 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
   flex-wrap: wrap;
   padding: 10px;
 } 
-/* Create two equal columns that floats next to each other */ 
 .column {
 	flex-wrap:wrap; 
   flex: 25%;
@@ -335,17 +349,17 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
   margin-top: 10px;
   vertical-align: middle;
   width: 100%;
-  border-radius: 15px; /*Rounded corners written by Malena*/
+  border-radius: 15px;
 } 
 
-/*Image gallery taken and edited based of w3schools How To 
-  https://www.w3schools.com/howto/howto_js_image_grid.asp*/
+/*Image gallery taken and edited based of w3schools How To https://www.w3schools.com/howto/howto_js_image_grid.asp*/
 
-/************************************************** Food Page CSS *******************************************************/
-/* Written by Mara*/
+/****************** Food Page CSS ******************/
+  /* Written by Mara*/
+  /*CSS here applies style to the images, stars, and text boxes*/
 
   
-img.stars { /*Star image css*/
+img.stars { 
   display: block;
   clear: left;
   margin: 20px;
@@ -369,7 +383,7 @@ h2.food { /*css for header*/
   text-align: center;
   background-color: black;
   border: 1px solid black;
-  border-radius: 10px; /*Rounds corners, code for rounding corners referenced from MDN Web Docs. (2019). border-radius. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
+  border-radius: 10px; /*Rounds corners*/
   width: 90%;
   color: #E0FFFF;
   text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
@@ -417,8 +431,6 @@ img.staticmap{
   padding: 10%
 }
 
-/* Code for div boxes referenced from Stack Overflow. (2012). Make text in paragraphs in div overrflow instead of new lines. Retrieved from Stack Overflow: https://stackoverflow.com/questions/15783079/make-text-in-paraghapghs-in-div-overflow-instead-of-new-lines*/
-
 div.rightbox{ /*right box spans 100% of the inner page*/ 
   border: 1px solid black;
   width: 100%;
@@ -432,12 +444,15 @@ div.leftbox{ /*left box is contained within right box, but is justified to the l
   height: 175px; 
 }
 /*HTML code for food page referenced from Duckett, J. (2011). HTML & CSS Design and Build Websites. Indianapolis: John Wiley & Sons, Inc.*/
-/*end of food page css*/
 
+/*Code for rounding corners referenced from MDN Web Docs. (2019). border-radius. Retrieved from MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
 
+/* Code for div boxes referenced from Stack Overflow. (2012). Make text in paragraphs in div overrflow instead of new lines. Retrieved from Stack Overflow: https://stackoverflow.com/questions/15783079/make-text-in-paraghapghs-in-div-overflow-instead-of-new-lines*/
 
-/*********************************Events page CSS*****************************************************************/
-/*Written by Mara*/
+/******************Events page CSS******************/
+  /*Written by Mara*/
+  /*CSS here defines properties, font style, and formatting for the events page*/
+
 div.event{ /*Container for each event*/
   width: 100%;
   align-content: center;
@@ -475,12 +490,12 @@ img.eventpic{ /*css for pictures on event page*/
   padding-right: 50px;
 }
 
+/****************** Parks Page CSS ******************/
+  /* Written by Grayson*/
+  /*CSS here creates a masonry-brick formatting for the parks page*/
+  /*CSS also defines formatting, style, and properties for parks page*/
 
-
-/************************************************** Parks Page CSS *******************************************************/
-/* Written by Grayson*/
-
-  .masonry { /* Masonry container Adapted from https://w3bits.com/css-masonry/ */  
+  .masonry { 
     column-count: 3;
     column-gap: 1em;
     padding: 1em;
@@ -490,7 +505,7 @@ img.eventpic{ /*css for pictures on event page*/
       column-count: 1;
     }
   }
-  .pintrestitem { /* Masonry bricks / elements  adapted from https://w3bits.com/css-masonry/ */
+  .pintrestitem { 
     background-color: #eee;
     display: inline-block;
     margin: 0 0 1em;
@@ -507,24 +522,27 @@ img.eventpic{ /*css for pictures on event page*/
     border-radius: 25px; /*Rounded corners written by Malena*/
 }
 
+/* Masonry container Adapted from https://w3bits.com/css-masonry/ */ 
 
+/* Masonry bricks / elements  adapted from https://w3bits.com/css-masonry/ */
 
-  /* Footer style */
-/* Written by Chris*/
+/****************** Footer Style ******************/
+  /*Written by Chris*/
+  /*CSS here defines responsiveness and style of footer*/
 
-footer{ /*Chris Noakes*/
+footer{ 
 	flex-shrink:0;
   width:100%;
 }
-.footerRow{ /*Chris Noakes*/
+.footerRow{ 
 	background-color:#e3e3e3;
 }
-.footerRow:after{ /*Chris Noakes*/
+.footerRow:after{ 
 	content:" ";
 	display:table;
 	clear:both;
 }
-.footerCol{ /*Chris Noakes*/
+.footerCol{ 
 	text-align:center;
   float:left;
   width:25%;
@@ -533,24 +551,24 @@ footer{ /*Chris Noakes*/
 	height:100%;
 }
 
-.footerImg{ /*Chris Noakes*/
+.footerImg{ 
   width:100%;
   max-width:276px;
 }
-.footerHeader{ /*Chris Noakes*/
+.footerHeader{ 
 	margin-top:5px;
   margin-bottom:10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) { /*Creates responsive column width when screen falls below specified width*/
   .footerCol {
     width: 50%;
   }
 }
-#footerBlurb{ /*Chris Noakes*/
+#footerBlurb{ 
   margin-top:0px;
 }
-.footerLinks{ /*Chris Noakes*/
+.footerLinks{ 
 	text-align:center;
 	display:block;
 	color:blue;
@@ -558,19 +576,18 @@ footer{ /*Chris Noakes*/
   font-family: Helvetica;
   text-decoration: none;
 }
-.footerLinks:hover{ /*Chris Noakes*/
+.footerLinks:hover{ 
 	color:red;
 }
 
-.socialLinks{ /*Chris Noakes*/
+.socialLinks{
   white-space: nowrap;
 	text-decoration:none;
 }
 
-/*End footer style*/
-
-/*******************Our Team Page Style by Chris Noakes********************/
-
+/****************** Our Team Page ******************/
+  /*Written by Chris*/
+  /*CSS here defines style and formatting of content within Our Team page*/
 
 .subheaderTeamRight{
   text-align: right;
@@ -645,10 +662,11 @@ footer{ /*Chris Noakes*/
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
   border-radius: 25px; /*Rounded corners written by Malena*/
 }
-/*End Our Team Style by Chris */
 
 
-/*********************************Lindsay Locals Testemonials style by Chris****************/
+/****************** Lindsay Locals Testemonials ******************/
+  /*Written by Chris*/
+  /*CSS here applies styling to Lindsay Locals testemonials page. Including text, image, and div formatting*/
 
 .testemonialsCol{
   background-color: rgb(255, 255, 255);
@@ -723,8 +741,10 @@ footer{ /*Chris Noakes*/
   }
 }
 
-/* Calendar Responsive and Display Content */ 
-/* Written By Grayson */
+/******************Calendar Responsive and Display Content ******************/
+  /* Written By Grayson */
+  /*CSS here defines the formatting and style for the calendar page*/
+  /*CSS allows the calendar to be responsive for smalelr screens*/
 
 #calendar {
   width: 100%;    
@@ -814,10 +834,7 @@ footer{ /*Chris Noakes*/
   color: #666;
 }
 
-/* ============================
-              Mobile Responsiveness
- ============================*/
-
+/*Following lines create mobile responsiveness for the calendar*/
 
 @media(max-width: 768px) {
 
@@ -839,3 +856,5 @@ footer{ /*Chris Noakes*/
 }
 
 /* End of Content Written By Grayson */
+
+/****************** END CSS ******************/
