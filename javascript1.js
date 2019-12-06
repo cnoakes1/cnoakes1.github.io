@@ -1,3 +1,5 @@
+/*  ********************Program Runs Index page image sider************* */ 
+/* section written by Grayson Mortimer  */
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName('mySlides');
@@ -8,10 +10,10 @@ function showSlides(n) {
     slides[i].style.display = 'none'
   };
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace('active', '')
+    dots[i].className = dots[i].className.replace(' active', '')
   };
   slides[slideIndex - 1].style.display = 'block';
-  dots[slideIndex - 1].className += 'active';
+  dots[slideIndex - 1].className += ' active';
 };
 
 /* JavaScript for home page written by Grayson Mortimer */
@@ -27,3 +29,5 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+/* Referenced/ adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+/* End of section written by Grayson Mortimer  */
